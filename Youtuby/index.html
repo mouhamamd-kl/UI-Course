@@ -18,7 +18,7 @@
   <body>
     <div id="top-menu">
       <div class="container-fluid ">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top "data-bs-theme="light">
           <div class="container-fluid">
             <a class="navbar-brand" href="index.html">يوتيوبي</a>
             <button class="navbar-toggler" type="button"
@@ -27,24 +27,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-lg-auto">
-                <li class="nav-item">
-                  <a class="nav-link " href="index.html">الفيديوهات المقترحة</a>
+                <li class="nav-item ">
+                  <a class="nav-link mb-2 mb-lg-0" href="index.html">الفيديوهات المقترحة</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">المرفوعة حديثاً</a>
+                  <a class="nav-link mb-2 mb-lg-0" href="#">المرفوعة حديثاً</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#">الفيديوهات الرائجة</a>
+                  <a class="nav-link me-2 mb-2 mb-lg-0" href="#">الفيديوهات الرائجة</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " href="#" data-bs-toggle="modal"
+                  <a class="btn btn-info text-white mb-2 mb-lg-0" href="#" data-bs-toggle="modal"
                     data-bs-target="#loginModal">تسجيل الدخول</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search"
                   placeholder="Search">
-                <button class="btn btn-outline-danger " type="submit">ابحث</button>
+                <button class="btn btn-outline-danger" type="submit">ابحث</button>
               </form>
 
             </div>
@@ -52,10 +52,9 @@
         </nav>
       </div>
     </div>
-
-    <div class="modal fade" id="loginModal" tabindex="-1">
-      <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal fade " id="loginModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content ">
           <div class="modal-header">
             <h1 class="modal-title fs-5" id="exampleModalLabel">تسجيل الدخول</h1>
             <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
@@ -63,7 +62,7 @@
           <div class="modal-body">
             <form>
               <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">:البريدالالكتروني</label>
+                <label for="exampleInputEmail1" class="form-label">البريد الالكتروني:</label>
                 <input type="email" class="form-control" id="email"
                   aria-describedby="emailHelp">
                 <div id="emailHelp" class="form-text">لن نقوم بمشاركة البريد
@@ -77,15 +76,20 @@
               </div>
             </form>
           </div>
-          <div class="modal-footer container-fluid">
-            <a href="" class="btn-link ms-5">نسيت كلمة المرور</a>
-            <a href="" class="btn-link ms-5">إنشاء حساب</a>
-            <button type="button" class="btn btn-danger ms-5">سجل الدخول</button>
+          <div class="modal-footer justify-content-between">
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0">نسيت كلمة المرور</a>
+            <a href="" class="link-offset-2 link-underline link-underline-opacity-0">إنشاء حساب</a>
+            <button type="button" class="btn btn-outline-danger">دخول</button>
           </div>
         </div>
       </div>
     </div>
-
+    <div class="row">
+      <div class="content ">
+        <h4>الفيديوهات المقترحة</h4>
+      </div>
+    
+    </div>
     <div style="height: 1000px;"></div>
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
