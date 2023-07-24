@@ -92,8 +92,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3">
-                    <input class="form-control my-3 border-0" type="search" placeholder="ابحث في التاريخ" >
+                    <input class="form-control my-3 border-0" type="search" placeholder="ابحث في التاريخ">
                     <hr>
+                    <label>نوع السجل:</label>
+                    <div class="list-group list-group-flush mt-2" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" >سجل المشاهدة</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab">سجل البحث</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab">التعليقات</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab">المنتدى</a>
+                    </div>
+                    <label class="mt-4">التاريخ</label>
+                    <div class="list-group list-group-flush mt-2" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list"
+                            data-bs-toggle="list" href="#list-home" role="tab" >منذ 24 ساعة</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+                            href="#list-profile" role="tab">منذ 3 أيام</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+                            href="#list-messages" role="tab">منذ أسبوع</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list"
+                            href="#list-settings" role="tab">منذ شهر</a>
+                    </div>
                 </div>
                 <div class="col-lg-9">
                     <div class="container">
@@ -137,7 +159,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
