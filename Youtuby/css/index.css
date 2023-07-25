@@ -8,6 +8,11 @@ body {
     background-color: #fafafa;
 }
 
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
 button {
     background-color: transparent !important;
     color: #bf40bb !important;
@@ -81,4 +86,55 @@ time {
   
 .card:hover {
     transform: translateY(-5%);
+}
+#top-menu .fa-bars:hover{
+cursor: pointer;
+}
+.sidebar{
+    position: fixed;
+    z-index: 4 ;
+    right: -17rem;
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    padding-bottom: 60px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+.sidebar .purple{
+    color: #bf40bb;
+}
+.sidebar .list-group-item:hover{
+    color: white !important;
+    background-color: #bf40bb !important;
+}
+.sidebar .list-group-item:hover .purple{
+    color: white !important;
+}
+.sidebar .list-group-item{
+    width: 17rem;
+}
+#wrap.toggled .sidebar{
+    right: 0rem;
+
+}
+
+.sidebar::-webkit-scrollbar{
+    background: rgb(230, 230, 230);
+    width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background: rgb(179, 179, 179);
+    width: 8px;
+}
+.layer{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.5) ;
+    z-index: 3;
+    display: none;
 }
