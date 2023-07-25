@@ -13,7 +13,7 @@ button{
 }
 button:hover{
     background-color: #bf40bb !important;
-    color: white;
+    color: white !important;
 }
 #top-menu .bg-light{
     background-color: white !important;
@@ -26,4 +26,15 @@ button:hover{
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active>.nav-link{
     background-color: #bf40bb !important;
+}
+.navbar .login {
+    color: #bf40bb;
+}
+.modal .modal-header .btn-close:hover{
+    color: #bf40bb !important;
+    background-color: transparent !important;
+}
+input.form-control:focus,
+button:focus{
+    box-shadow: none !important;
 }
