@@ -1,40 +1,84 @@
 @font-face {
-    font-family:"cairoFont" ;
+    font-family: "cairoFont";
     src: url(../fonts/Cairo-Regular.ttf);
 }
-body{
-    font-family: "cairoFont",Arial, sans-serif;
+
+body {
+    font-family: "cairoFont", Arial, sans-serif;
     background-color: #fafafa;
 }
-button{
+
+button {
     background-color: transparent !important;
     color: #bf40bb !important;
     border-color: #bf40bb !important;
 }
-button:hover{
+
+button:hover {
     background-color: #bf40bb !important;
     color: white !important;
 }
-#top-menu .bg-light{
+
+#top-menu .bg-light {
     background-color: white !important;
 }
-#top-menu .video-icon{
+
+#top-menu .video-icon {
     background-color: #bf40bb;
     color: white;
     border-radius: 15%;
 }
+
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .active>.nav-link{
+.navbar .navbar-nav .active>.nav-link {
     background-color: #bf40bb !important;
 }
+
 .navbar .login {
     color: #bf40bb;
 }
-.modal .modal-header .btn-close:hover{
+
+.modal .modal-header .btn-close:hover {
     color: #bf40bb !important;
     background-color: transparent !important;
 }
+
 input.form-control:focus,
-button:focus{
+button:focus {
     box-shadow: none !important;
+}
+
+.card .card-icons {
+    position: relative;
+}
+
+time {
+    position: absolute;
+    bottom: 10px;
+    left: 7px;
+    background-color: black;
+    padding: 0px 3px;
+    color: white;
+}
+
+.card .fa-play {
+    position: absolute;
+    top: 43%;
+    right: 43%;
+    color: #2c313137;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: none;
+}
+
+.card:hover .fa-play {
+    display: inline;
+}
+.card {
+    transition: transform 0.3s ease-out;
+  }
+  
+.card:hover {
+    transform: translateY(-5%);
 }
