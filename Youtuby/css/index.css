@@ -82,8 +82,15 @@ time {
 }
 .card {
     transition: transform 0.3s ease-out;
-  }
-  
+}
+.card .card-title{
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}  
+
 .card:hover {
     transform: translateY(-5%);
 }
@@ -137,4 +144,47 @@ cursor: pointer;
     background-color:rgba(0, 0, 0, 0.5) ;
     z-index: 3;
     display: none;
+}
+.navbar .search-icon{
+    color: #bf40bb;
+    cursor: pointer;
+    padding: 15px 10px;
+    position: absolute;
+    top: 15px;
+    left: 132px;
+    display: none;
+}
+.navbar .search-icon:hover{
+    color: white;
+    background-color: #bf40bb;
+}
+.search-input{
+    position: absolute;
+    top: 79px;
+    border: none;
+    padding: 6px 23px;
+    height: 60px;
+    background-color: #efeeee;
+    display: none;
+    z-index: 1;
+}
+.search-input:focus{
+    background-color: #efeeee;
+}
+.container-fluid{
+    padding: 0px;
+    overflow: hidden;
+}
+@media (min-width:1063px){
+    .search-input{
+        display: none !important;
+    }
+}
+@media (max-width:1062px) {
+    .navbar .collapse .form-inline{
+        display: none !important;
+    }
+    .navbar .search-icon{
+        display: inline;
+    }
 }

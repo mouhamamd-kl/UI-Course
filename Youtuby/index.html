@@ -33,27 +33,24 @@
                 </span>
               </a>
             </b>
-            <button class="navbar-toggler" type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-lg-auto">
                 <li class="nav-item active">
-                  <a class="nav-link mb-2 mb-lg-0 " href="index.html">الفيديوهات
+                  <a class="nav-link mb-2 mb-lg-0 ms-3 px-3 " href="index.html">الفيديوهات
                     المقترحة</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mb-2 mb-lg-0 ms-3" href="#">المرفوعة حديثاً</a>
+                  <a class="nav-link mb-2 mb-lg-0 ms-3 px-3" href="#">المرفوعة
+                    حديثاً</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link me-3 mb-2 mb-lg-0 ms-3" href="#">الفيديوهات
+                  <a class="nav-link me-3 mb-2 mb-lg-0 ms-3 px-3" href="#">الفيديوهات
                     الرائجة</a>
                 </li>
 
               </ul>
-              <div class="d-flex me-2" role="search">
+              <div class="d-flex me-2 form-inline" role="search">
                 <input class="form-control me-2" type="search"
                   placeholder="Search" />
                 <button onclick="location.href='search.html';"
@@ -61,11 +58,13 @@
                   ابحث
                 </button>
               </div>
-              <a class="nav-link login" href="#" data-bs-toggle="modal"
-                data-bs-target="#loginModal">تسجيل الدخول</a>
             </div>
+            <i class="fas fa-search me-4 search-icon mx-0"></i>
+            <a class="nav-link login me-3" href="#" data-bs-toggle="modal"
+              data-bs-target="#loginModal">تسجيل الدخول</a>
           </div>
         </nav>
+        <input type="search" class="mb-4 form-control search-input" placeholder="ابحث عن">
         <div class="modal fade" id="loginModal" tabindex="-1">
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
@@ -161,7 +160,7 @@
 
         <div class="row">
           <div class="container">
-            <h4 class="py-5">الفيديوهات المقترحة</h4>
+            <h4 class="py-5 mt-4">الفيديوهات المقترحة</h4>
             <div class="row">
               <div class="col-sm-6 col-md-4 col-lg-3">
                 <div class="card p-1 mb-4">

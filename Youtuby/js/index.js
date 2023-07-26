@@ -16,8 +16,14 @@ $(document).ready(function () {
             $('.layer').fadeIn();
         }
     });
+
     $('.layer').click(function(){
         $('.sidebar').css({ 'right': '-17rem' });
         $('.layer').fadeOut();
     });
+
+    $('.search-icon').click(function(){
+        $('.search-input').slideToggle('slow');
+    });
+    
 });
