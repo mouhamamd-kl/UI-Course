@@ -85,10 +85,9 @@ time {
 }
 .card .card-title{
     height: 50px;
-    white-space: nowrap;
+    /* white-space: nowrap; */
     overflow: hidden;
-    text-overflow: ellipsis;
-    
+    /* text-overflow: ellipsis; */
 }  
 
 .card:hover {
@@ -159,7 +158,8 @@ cursor: pointer;
     background-color: #bf40bb;
 }
 .search-input{
-    position: absolute;
+    position: fixed;
+
     top: 79px;
     border: none;
     padding: 6px 23px;

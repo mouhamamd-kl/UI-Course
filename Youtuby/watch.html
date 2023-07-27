@@ -17,75 +17,143 @@
 <body class="my-5">
   <div id="top-menu">
     <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top shadow p-3 mb-5 rounded" data-bs-theme="light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">يوتيوبي</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-lg-auto">
-              <li class="nav-item">
-                <a class="nav-link mb-2 mb-lg-0" href="index.html">الفيديوهات المقترحة</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link mb-2 mb-lg-0" href="#">المرفوعة حديثاً</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link me-2 mb-2 mb-lg-0" href="#">الفيديوهات الرائجة</a>
-              </li>
-              <li class="nav-item">
-                <a class="btn btn-info text-white mb-2 mb-lg-0" href="#" data-bs-toggle="modal"
-                  data-bs-target="#loginModal">تسجيل الدخول</a>
-              </li>
-            </ul>
-            <div class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" />
-              <button onclick="location.href='search.html';" class="btn btn-outline-danger" type="submit">
-                ابحث
-              </button>
+      <nav
+          class="navbar navbar-expand-lg bg-light fixed-top  py-3 mb-5 rounded"
+          data-bs-theme="light">
+          <div class="container-fluid">
+            <i class="fas fa-bars fa-lg me-2" id="toggler"></i>
+            <b>
+              <a class="navbar-brand" href="index.html">
+                يوتيوبي
+                <span class="video-icon p-1 pe-1">
+                  <i class="fa fa-play-circle"></i>
+                </span>
+              </a>
+            </b>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item active">
+                  <a class="nav-link mb-2 mb-lg-0 ms-3 px-3 " href="index.html">الفيديوهات
+                    المقترحة</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mb-2 mb-lg-0 ms-3 px-3" href="#">المرفوعة
+                    حديثاً</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link me-3 mb-2 mb-lg-0 ms-3 px-3" href="#">الفيديوهات
+                    الرائجة</a>
+                </li>
+
+              </ul>
+              <div class="d-flex me-2 form-inline" role="search">
+                <input class="form-control me-2" type="search"
+                  placeholder="Search" />
+                <button onclick="location.href='search.html';"
+                  class="btn btn-outline-danger" type="submit">
+                  ابحث
+                </button>
+              </div>
             </div>
+            <i class="fas fa-search me-4 search-icon mx-0"></i>
+            <a class="nav-link login me-3" href="#" data-bs-toggle="modal"
+              data-bs-target="#loginModal">تسجيل الدخول</a>
           </div>
-        </div>
-      </nav>
-      <div class="modal fade" id="loginModal" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">
-                تسجيل الدخول
-              </h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
-            <div class="modal-body">
-              <form>
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">البريد الالكتروني:</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp" />
-                  <div id="emailHelp" class="form-text">
-                    لن نقوم بمشاركة البريد الالكتروني الخاص بك مع أية جهة
-                    خارجية
+        </nav>
+        <input type="search" class="mb-4 form-control search-input" placeholder="ابحث عن">
+        <div class="modal fade" id="loginModal" tabindex="-1">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  تسجيل الدخول
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal">
+
+                </button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">البريد
+                      الالكتروني:</label>
+                    <input type="email" class="form-control" id="email"
+                      aria-describedby="emailHelp" />
+                    <div id="emailHelp" class="form-text">
+                      لن نقوم بمشاركة البريد الالكتروني الخاص بك مع أية جهة
+                      خارجية
+                    </div>
                   </div>
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">كلمة المرور</label>
-                  <input type="password" class="form-control" id="password" />
-                </div>
-              </form>
-            </div>
-            <div class="modal-footer justify-content-between">
-              <a href="" class="link-offset-2 link-underline link-underline-opacity-0">نسيت كلمة المرور</a>
-              <a href="" class="link-offset-2 link-underline link-underline-opacity-0">إنشاء حساب</a>
-              <button type="button" class="btn btn-outline-danger">
-                دخول
-              </button>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">كلمة
+                      المرور</label>
+                    <input type="password" class="form-control" id="password" />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer justify-content-between">
+                <a href class>نسيت كلمة المرور</a>
+                <a href class>إنشاء حساب</a>
+                <button type="button" class="btn btn-outline-danger">
+                  دخول
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+
+        <div class="row pt-4 me-0">
+          <div id="wrap">
+            <div class="sidebar">
+              <ul class="list-group list-group-flush p-0">
+                <a href="index.html"
+                  class="list-group-item list-group-item-action">
+                  <i class="fas fa-home me-2 purple"></i> الصفحة الرئيسية
+                </a>
+                <a href="index.html"
+                  class="list-group-item list-group-item-action">
+                  <i class="fab fa-algolia me-2 purple"></i> الفيديوهات المقترحة
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="far fa-plus-square me-2 purple"></i> المرفوعة حديثًا
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-fire-alt me-2 purple"></i> الفيديوهات الرائجة
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-fire-alt me-2 purple"></i> فيديوهاتي
+                </a>
+                <a href="log.html"
+                  class="list-group-item list-group-item-action">
+                  <i class="fas fa-history me-2 purple"></i> سجل المشاهدة
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="far fa-share-square me-2 purple"></i> الإشتراكات
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-film me-2 purple"></i> الأفلام والعروض
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-gamepad me-2 purple"></i> ألعاب فيديو
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-tshirt me-2 purple"></i> الموضة والجمال
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-graduation-cap me-2 purple"></i> محتوى تعليمي
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-cog me-2 purple"></i> الإعدادات
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                  <i class="fas fa-question-circle me-2 purple"></i> مساعدة
+                </a>
+
+              </ul>
+            </div>
+          </div>
+        </div>
 
   <div class="watch-page pt-5">
     <div class="container-fluid">
