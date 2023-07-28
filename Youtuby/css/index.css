@@ -175,6 +175,14 @@ cursor: pointer;
     padding: 0px;
     overflow: hidden;
 }
+.card .card-horizontal .card-body p{
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.card-body{
+    min-width: 0;
+}
 @media (min-width:1063px){
     .search-input{
         display: none !important;
