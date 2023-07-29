@@ -1,25 +1,80 @@
  .card:hover {
-    transform: translateY(0%);
-}
-.watch-page .watch-icons{
-    position: absolute !important;
-    bottom: 5px !important;
-}
-.watch-icons i:hover{
-    cursor: pointer;
-}
-.card .wrapped{
-    white-space: nowrap;
-    overflow: hidden !important;
-    text-overflow: ellipsis !important;
-}
-.heart, .reply {
-    background-color: transparent !important;
-    color: #bf40bb !important;
-    border-color: #bf40bb !important;
-}
+     transform: translateY(0%);
+ }
 
-.heart ,.reply {
-    background-color: #bf40bb !important;
-    color: white !important;
+ .watch-page .watch-icons {
+     position: absolute !important;
+     bottom: 5px !important;
+ }
+
+ .watch-icons i:hover {
+     cursor: pointer;
+ }
+
+ .card .wrapped {
+     white-space: nowrap;
+     overflow: hidden !important;
+     text-overflow: ellipsis !important;
+ }
+
+ .heart,
+ .reply {
+     background-color: transparent !important;
+     color: #bf40bb !important;
+     border-color: #bf40bb !important;
+ }
+
+ .heart:hover,
+ .reply:hover {
+     background-color: #bf40bb !important;
+     color: white !important;
+ }
+
+ .card-reply {
+     display: none;
+ }
+
+ @keyframes pulse {
+     0% {
+         transform: scale(1);
+     }
+
+     70% {
+         transform: scale(1.5);
+     }
+
+     100% {
+         transform: scale(1);
+     }
+ }
+
+ .pulse {
+     animation: pulse 0.7s ease;
+ }
+
+ .hearted {
+     color: red !important;
+ }
+.card .fa-play {
+    top: 40%;
+    right: 45%;
+
+}
+@media (min-width:992px){
+    time{
+        font-size: 13px;
+    }
+    .fa-play{
+        font-size: 20px !important;
+    }
+}
+@media(max-width:1170px){
+    #see-more{
+        margin-bottom: 60px !important;
+    }
+}
+@media(max-width:824px){
+    .reply-time{
+        font-size: 13px;
+    }
 }

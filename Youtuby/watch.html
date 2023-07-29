@@ -195,11 +195,15 @@
                       <h4>دورة تطوير تطبيقات الويب باستخدام لغة PHP - أكاديمية
                         حسوب </h4>
                     </a>
-                    <p id="video-description" class="wrapped">تم إعداد هذه الدورة على يد نخبة من أفضل المبرمجين العرب بتسلسل بسيط وواضح، بإنهائك لها ستصبح مطوّر
-                      <span id="dots"> ...</span><span id="more"> واجهات مستخدم دون الحاجة
-                      لامتلاك معرفة سابقة بالبرمجة، خلال هذه ستتعلم تطوير واجهات المستخدم خطوة بخطوة اعتمادًا على التجربة
-                      العملية والمادة العلمية التي يقدمها مدربون محترفون.</span>
-                  </p>
+                    <p id="video-description" class="wrapped">تم إعداد هذه
+                      الدورة على يد نخبة من أفضل المبرمجين العرب بتسلسل بسيط
+                      وواضح، بإنهائك لها ستصبح مطوّر
+                      <span id="dots"> ...</span><span id="more"> واجهات مستخدم
+                        دون الحاجة
+                        لامتلاك معرفة سابقة بالبرمجة، خلال هذه ستتعلم تطوير
+                        واجهات المستخدم خطوة بخطوة اعتمادًا على التجربة
+                        العملية والمادة العلمية التي يقدمها مدربون محترفون.</span>
+                    </p>
                     <button id="see-more" class="btn">اعرض المزيد</button>
                   </div>
                   <div class="watch-icons">
@@ -261,7 +265,7 @@
                               <img
                                 src="https://image.ibb.co/jw55Ex/def_face.jpg"
                                 class="img img-rounded img-fluid" />
-                              <p class="text-secondary text-center">منذ 15 دقيقة</p>
+                              <p class="text-secondary text-center reply-time">منذ 15 دقيقة</p>
                             </div>
                             <div class="col-10">
                               <p>
@@ -283,7 +287,8 @@
                               <p>دورة ممتازة تساعد على تعلم المواد بطريقة مميزة</p>
                               <p>
                                 <a
-                                  class="float-start btn text-white btn-info me-2 mt-4 reply">
+                                  class="float-start btn text-white btn-info me-2 mt-4 reply"
+                                  id="reply-link">
                                   <i class="fa fa-reply"></i> الردود</a>
                                 <a
                                   class="float-start btn text-white btn-info mt-4 heart">
@@ -291,14 +296,14 @@
                               </p>
                             </div>
                           </div>
-                          <div class="card card-inner ms-4 mt-3 ms-5">
+                          <div class="card card-inner ms-4 mt-3 ms-5 card-reply">
                             <div class="card-body">
                               <div class="row">
                                 <div class="col-2">
                                   <img
                                     src="https://image.ibb.co/jw55Ex/def_face.jpg"
                                     class="img img-rounded img-fluid" />
-                                  <p class="text-secondary text-center d-block">منذ
+                                  <p class="text-secondary text-center d-block reply-time">منذ
                                     15 دقيقة</p>
                                 </div>
                                 <div class="col-10">
@@ -328,14 +333,16 @@
 
                 <div class="card p-2 mb-4 my-5">
                   <div class="row">
-                    <div class="col-sm-5">
-                      <img class="d-block w-100"
-                        src="./img/thumbnail/database.jpg" alt>
-
+                    <div class="col-sm-5 card-icons">
+                      <a href="watch.html">
+                        <img class=" w-100 h-100"
+                          src="./img/thumbnail/database.jpg" alt>
+                        <time>9:20</time>
+                        <i class="fas fa-play fa-2x"></i>
+                      </a>
                     </div>
                     <div class="col-sm-7 position-relative">
                       <div class="card-block">
-
                         <a class=" ms-2 text-dark" href="watch.html">
                           <p>دورة تطوير تطبيقات الويب باستخدام لغة PHP -
                             أكاديمية حسوب </p>
@@ -480,7 +487,6 @@
           crossorigin="anonymous"></script>
         <script
           src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
         <script src="./js/index.js"></script>
         <script src="./js/watch.js"></script>
       </body>
