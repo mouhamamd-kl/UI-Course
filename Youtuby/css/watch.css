@@ -23,3 +23,6 @@
     background-color: #bf40bb !important;
     color: white !important;
 }
+.form-control:focus{
+    box-shadow: none !important;
+}
