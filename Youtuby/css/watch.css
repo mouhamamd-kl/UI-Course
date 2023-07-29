@@ -1,0 +1,25 @@
+ .card:hover {
+    transform: translateY(0%);
+}
+.watch-page .watch-icons{
+    position: absolute !important;
+    bottom: 5px !important;
+}
+.watch-icons i:hover{
+    cursor: pointer;
+}
+.card .wrapped{
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.heart, .reply {
+    background-color: transparent !important;
+    color: #bf40bb !important;
+    border-color: #bf40bb !important;
+}
+
+.heart ,.reply {
+    background-color: #bf40bb !important;
+    color: white !important;
+}
