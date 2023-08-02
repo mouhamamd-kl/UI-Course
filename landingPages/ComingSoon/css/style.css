@@ -2,6 +2,18 @@
     padding: 0;
     margin: 0;
 }
+body{
+    direction: rtl;
+}
 header{
-    background-image: url('C:/Users/KL/Desktop/UI-Course/landingPages\ComingSoon/images/header.jpg');
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+header .brand{
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: inline-block;
+    border-bottom: 5px solid #474c53;
+    padding-bottom: 35px;
 }
