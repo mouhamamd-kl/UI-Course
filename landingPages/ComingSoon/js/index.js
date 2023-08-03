@@ -15,31 +15,18 @@ var x = setInterval(function () {
     document.getElementById("seconds").innerText=seconds.toString();
 }, 1000);
 
-// function getyearDiff(d1, d2) {
-//     if (d1 > d2) {
-//         var diff = d1.getFullYear() - d2.getFullYear();
-//         return diff;
-//     }
-//     var diff = d2.getFullYear() - d1.getFullYear();
-//     return diff;
-// }
-// function getMonthDiff(d1, d2) {
-//     var diff = getyearDiff(d1,d2)*12;
-//     return diff;
-// }
-// function getDaysDiff(d1, d2) {
-//     var diff = getMonthDiff(d1,d2)*30;
-//     return diff;
-// }
-// function getHours(d1, d2) {
-//     var diff = getDaysDiff(d1,d2)*24;
-//     return diff;
-// }
-// function getMinutes(d1,d2){
-// var diff=getDaysDiff(d1,d2)*60;
-// return diff;
-// }
-// function getSeconds(d1,d2) {  
-//     var diff=getMinutes(d1,d2)*60;
-//     return diff;
-// }
+(function() {
+    'use strict';
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation');
+    // Loop over them and prevent submission
+    Array.prototype.slice.call(forms).forEach(function(form) {
+        form.addEventListener('submit', function(event) {
+            if (!form.checkValidity()) {
+                event.preventDefault();
+                event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+        }, false);
+    });
+})();

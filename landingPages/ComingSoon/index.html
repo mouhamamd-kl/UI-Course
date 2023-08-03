@@ -7,7 +7,7 @@
         <meta name="description"
             content="هذه هي صفحة هبوط لعد تنازلي لنشر تطبيق جوال">
         <link rel="stylesheet"
-            href="./assets/bootstrap/css/bootstrap.rtl.min.css">
+            href="./assets/bootstrap/css/bootstrap.css">
 
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -74,13 +74,16 @@
             </div>
             <div class="send-notification">
                 <p>هل تريد الحصول على إشعار فور الانطلاق</p>
-                <form>
-                    <div class="input-group">
-
-                        <input type="email" name="" id="" class="form-control">
+                <form class="needs-validation" novalidate>
+                    <div class="input-group" >
+                        <input type="email" name id class="form-control"
+                            placeholder="البريد الالكتروني" required>
                         <button type="submit" class="btn">
-                            <img src="./images/send1.png" alt="">
+                            <img src="./images/send1.png" alt>
                         </button>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
                     </div>
                 </form>
             </div>
@@ -97,7 +100,6 @@
             crossorigin="anonymous"></script>
         <script
             src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="./js/index.js"></script>
     </body>
 </html>
