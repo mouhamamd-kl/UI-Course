@@ -42,24 +42,40 @@ header .heading-page p {
     width: 40%;
     margin: auto;
 }
-header .count-down{
+
+header .count-down {
     width: 60%;
-    margin: 90px auto 90px;
+    margin: 90px auto;
 }
-header .counter{
+
+header .counter {
     display: inline-block;
     margin: 0px 15px;
 }
 
-header .count-down .counter .count-amount{
+header .count-down .counter .count-amount {
     color: #ffce00;
     font-size: 60px;
     display: block;
     font-weight: bold;
 }
-header .count-down .counter .count-period{
+
+header .count-down .counter .count-period {
     color: white;
     display: block;
     font-size: 30px;
     font-weight: bold;
+}
+
+header .send-notification p {
+    font-size: 18px;
+    color: white;
+}
+
+header .send-notification .input-group {
+    width: 30%;
+    margin: auto;
+}
+header .send-notification .input-group button img{
+    color: #ffce00 !important;
 }
