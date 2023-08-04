@@ -91,3 +91,28 @@ header .send-notification .input-group input{
 .invalid-feedback{
     margin-bottom:-30px;
 }
+main  section.features{
+ padding: 100px 0px;
+}
+main section.features h2{
+    color: #555555;
+    margin-bottom: 55px;
+}
+main section.features .row .d-flex{
+    border: 2px solid #fafafa;
+    padding: 40px 10px;
+    max-height: 190px;
+    margin-bottom: 20px;
+}
+main section.features .row .d-flex h4{
+    font-size: 24px;
+    color: #555555;
+}
+main section.features .row .d-flex p{
+font-size: 15px;
+color:#a1a1a1 ;
+line-height: 25px ;
+}
+main section.features .row .col-md-6:nth-child(even){
+direction: ltr;
+}
