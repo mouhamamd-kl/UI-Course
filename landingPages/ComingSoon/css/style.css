@@ -1,94 +1,94 @@
 * {
     padding: 0;
-    margin : 0;
+    margin: 0;
 }
 
 @font-face {
     font-family: ar-font;
-    src        : url('../fonts/Cairo-SemiBold.ttf');
+    src: url('../fonts/Cairo-SemiBold.ttf');
 }
 
 body {
-    direction  : rtl;
+    direction: rtl;
     font-family: ar-font !important;
 }
 
 header {
-    background-image   : url('../images/header.jpg');
-    background-size    : cover;
+    background-image: url('../images/header.jpg');
+    background-size: cover;
     background-position: center center;
 }
 
 header .brand {
-    margin-top    : 100px;
-    margin-bottom : 60px;
-    display       : inline-block;
-    border-bottom : 5px solid #474c53;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    display: inline-block;
+    border-bottom: 5px solid #474c53;
     padding-bottom: 35px;
 
 }
 
 header .heading-page h1 {
-    color      : white;
-    font-size  : 60px;
+    color: white;
+    font-size: 60px;
     line-height: 75px;
     font-weight: bold;
 }
 
 header .heading-page p {
-    color      : #acacac;
-    font-size  : 18px;
+    color: #acacac;
+    font-size: 18px;
     line-height: 25px;
-    width      : 40%;
-    margin     : auto;
+    width: 40%;
+    margin: auto;
 }
 
 header .count-down {
-    width : 60%;
+    width: 60%;
     margin: 90px auto;
 }
 
 header .counter {
     display: inline-block;
-    margin : 0px 15px;
+    margin: 0px 15px;
 }
 
 header .count-down .counter .count-amount {
-    color      : #ffce00;
-    font-size  : 60px;
-    display    : block;
+    color: #ffce00;
+    font-size: 60px;
+    display: block;
     font-weight: bold;
 }
 
 header .count-down .counter .count-period {
-    color      : white;
-    display    : block;
-    font-size  : 30px;
+    color: white;
+    display: block;
+    font-size: 30px;
     font-weight: bold;
 }
 
- p {
+p {
     font-size: 18px;
-    color    : white;
+    color: white;
 }
 
- .input-group {
-    width    : 35%;
-    margin   : auto;
+.input-group {
+    width: 35%;
+    margin: auto;
     transform: translateY(30%);
 }
 
- .input-group button {
+.input-group button {
     background-color: #ffce00 !important;
-    padding         : 13px 25px;
-    border-radius   : 0 !important;
+    padding: 13px 25px;
+    border-radius: 0 !important;
 }
 
- .input-group input {
+.input-group input {
     border-radius: 0;
-    border       : 2px solid #e6e6e6;
-    font-size    : 18px;
-    direction    : rtl;
+    border: 2px solid #e6e6e6;
+    font-size: 18px;
+    direction: rtl;
 }
 
 .invalid-feedback {
@@ -100,25 +100,25 @@ main section.features {
 }
 
 main section.features h2 {
-    color        : #555555;
+    color: #555555;
     margin-bottom: 55px;
 }
 
 main section.features .row .d-flex {
-    border       : 2px solid #fafafa;
-    padding      : 40px 10px;
-    max-height   : 190px;
+    border: 2px solid #fafafa;
+    padding: 40px 10px;
+    max-height: 190px;
     margin-bottom: 20px;
 }
 
 main section.features .row .d-flex h4 {
     font-size: 24px;
-    color    : #555555;
+    color: #555555;
 }
 
 main section.features .row .d-flex p {
-    font-size  : 15px;
-    color      : #a1a1a1;
+    font-size: 15px;
+    color: #a1a1a1;
     line-height: 25px;
 }
 
@@ -127,10 +127,10 @@ main section.features .row .col-md-6:nth-child(even) {
 }
 
 footer {
-    background-image   : url(../images/footer-bg.jpg);
-    background-size    : cover;
+    background-image: url(../images/footer-bg.jpg);
+    background-size: cover;
     background-position: center;
-    text-align         : center;
+    text-align: center;
 }
 
 footer .footer-notification {
@@ -138,11 +138,33 @@ footer .footer-notification {
     padding: 70px 0;
 }
 
-footer .footer-notification h3{
+footer .footer-notification h3 {
     font-size: 30px;
     margin-bottom: 30px;
 }
+
 footer .footer-notification .input-group button {
     background-color: #393939 !important;
+}
 
+footer .social-media {
+    background-color: rgba(75, 75, 75, 0.9);
+    padding: 100px 0 30px;
+}
+
+footer .social-media>h3 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+footer .social-media .list-inline-item a {
+    height: 70px !important;
+    width: 70px !important;
+    font-size: 24px !important;
+    background-color: rgba(255, 255, 255, 0.14) !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
 }
