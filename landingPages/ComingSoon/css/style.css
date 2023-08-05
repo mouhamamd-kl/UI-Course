@@ -162,9 +162,27 @@ footer .social-media .list-inline-item a {
     height: 70px !important;
     width: 70px !important;
     font-size: 24px !important;
-    background-color: rgba(255, 255, 255, 0.14) !important;
+    background-color: rgba(48, 48, 48, 0.6) !important;
     display: flex !important;
     align-items: center;
     justify-content: center;
     color: white !important;
+    transition: .5s;
+}
+footer .social-media .list-inline-item a:hover{
+    background-color: #fad32f !important;
+    color: #555555 !important;
+}
+footer .social-media hr{
+    width: 25%;
+    margin: 50px auto 30px;
+}
+footer .social-media .email{
+    color: #b4b4b4;
+    text-decoration: none;
+
+}
+footer .social-media .email .fa-envelope{
+    color: #ffce00 !important;
+    margin-left: 4px;
 }
