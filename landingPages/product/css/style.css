@@ -1,19 +1,79 @@
-*{
+* {
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
-body{
-    direction: rtl;
+
+@font-face {
+    font-family: ar-font;
+    src        : url('../fonts/Cairo-SemiBold.ttf');
 }
-header  video{
-min-height: 100%;
-min-width: 100%;
-position: fixed;
-z-index: -1;
+
+body {
+    direction  : rtl;
+    font-family: ar-font !important;
 }
-header .overlay{
+
+header video {
+    min-height: 100%;
+    min-width : 100%;
+    position  : fixed;
+    z-index   : -1;
+}
+
+header .overlay {
     background-color: rgba(255, 255, 255, 0.7);
 }
-header .brand{
+
+header .brand {
     padding-top: 40px;
+
+}
+
+header .header-text {
+    padding-top: 190px;
+}
+
+header .header-text h1 {
+    font-size    : 36px;
+    margin-bottom: 40px;
+    line-height  : 46px;
+    color        : #555555;
+}
+
+header .header-text p {
+    font-size    : 18px;
+    line-height  : 32px;
+    margin-bottom: 50px;
+}
+
+
+header .header-button a.btn {
+    padding         : 22px 55px;
+    background-color: #7936b2;
+    color           : white;
+    margin-left     : 15px;
+}
+header .header-button a.btn:last-child{
+    background: transparent;
+    color:#7936b2;
+}
+.product{
+    position: relative;
+    margin-bottom: 30px;
+}
+header .product-label img{
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+header .product-label p{
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+header .product-label p span{
+    display: block;
 }
