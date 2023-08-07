@@ -53,27 +53,85 @@ header .header-button a.btn {
     color           : white;
     margin-left     : 15px;
 }
-header .header-button a.btn:last-child{
+
+header .header-button a.btn:last-child {
     background: transparent;
-    color:#7936b2;
+    color     : #7936b2;
 }
-.product{
-    position: relative;
+
+.product {
+    position     : relative;
     margin-bottom: 30px;
 }
-header .product-label img{
+
+header .product-label img {
     position: absolute;
-    top: -50px;
-    right: -50px;
+    top     : -50px;
+    right   : -50px;
 }
-header .product-label p{
-    position: absolute;
-    top: -25px;
-    right: 0px;
-    color:white;
+
+header .product-label p {
+    position  : absolute;
+    top       : -25px;
+    right     : 0px;
+    color     : white;
     text-align: center;
-    font-size: 24px;
+    font-size : 24px;
 }
-header .product-label p span{
+
+header .product-label p span {
     display: block;
+}
+
+main section.features {
+    padding         : 70px 0px;
+    background-color: white;
+}
+
+main section.features .features-title h2 {
+    font-size     : 36px;
+    color         : #555555;
+    line-height   : 32px;
+    padding-bottom: 45px;
+    position      : relative;
+}
+
+main section.features .features-title h2::after {
+    content         : "";
+    width           : 150px;
+    height          : 2px;
+    background-color: #7936b2;
+    position        : absolute;
+    bottom          : 0px;
+    left            : 50%;
+    transform       : translateX(-50%);
+}
+
+main section.features .media-feature .d-flex {
+    padding      : 70px 0px;
+    border-bottom: 2px solid #eeeeee;
+}
+main section.features .media-feature .d-flex:nth-child(even){
+    direction: ltr;
+}
+main section.features .media-feature .d-flex img{
+    margin: 0px 80px;
+}
+main section.features .media-feature .d-flex h4{
+    font-size: 36px;
+    font-weight: bold;
+    color: #7936b2;
+    padding: 0px 25px;
+    margin-bottom: 50px;
+    border-right: 2px solid #7936b2;
+}
+main section.features .media-feature .d-flex:nth-child(even) h4{
+    border-right: none;
+    border-left: 2px solid #7936b2;
+
+}
+main section.features .media-feature .d-flex p{
+    font-size: 18px;
+    line-height: 32px;
+    color: #555555;
 }
