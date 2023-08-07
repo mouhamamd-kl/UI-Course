@@ -111,27 +111,100 @@ main section.features .media-feature .d-flex {
     padding      : 70px 0px;
     border-bottom: 2px solid #eeeeee;
 }
-main section.features .media-feature .d-flex:nth-child(even){
+
+main section.features .media-feature .d-flex:nth-child(even) {
     direction: ltr;
 }
-main section.features .media-feature .d-flex img{
+
+main section.features .media-feature .d-flex img {
     margin: 0px 80px;
 }
-main section.features .media-feature .d-flex h4{
-    font-size: 36px;
-    font-weight: bold;
-    color: #7936b2;
-    padding: 0px 25px;
+
+main section.features .media-feature .d-flex h4 {
+    font-size    : 36px;
+    font-weight  : bold;
+    color        : #7936b2;
+    padding      : 0px 25px;
     margin-bottom: 50px;
-    border-right: 2px solid #7936b2;
+    border-right : 2px solid #7936b2;
 }
-main section.features .media-feature .d-flex:nth-child(even) h4{
+
+main section.features .media-feature .d-flex:nth-child(even) h4 {
     border-right: none;
-    border-left: 2px solid #7936b2;
+    border-left : 2px solid #7936b2;
 
 }
-main section.features .media-feature .d-flex p{
-    font-size: 18px;
+
+main section.features .media-feature .d-flex p {
+    font-size  : 18px;
     line-height: 32px;
-    color: #555555;
+    color      : #555555;
+}
+
+main section.prices {
+    padding         : 50px 0px 60px;
+    background-color: #f7f7f7;
+}
+
+main section.prices-text h2 {
+    font-size: 30px;
+    color    : #555555;
+}
+
+main section.prices .plan-card {
+    background-color: white;
+    border          : 2px solid #ededed;
+    padding         : 15px 0px;
+    margin-top      : 100px;
+    color           : #a9a9ab;
+}
+
+main section.prices .plan-card span.title {
+    font-size: 18px;
+    color    : #a044ff;
+}
+
+main section.prices .plan-card h5 {
+    font-size: 48px;
+    margin   : 30px auto;
+}
+
+main section.prices .plan-card h5 span {
+    font-size     : 15px;
+    vertical-align: bottom;
+}
+
+main section.prices .plan-card ul {
+    padding-right: 0px;
+}
+
+main section.prices .plan-card ul li {
+    list-style   : none;
+    font-size    : 15px;
+    margin-bottom: 30px;
+}
+
+main section.prices .plan-card a.btn {
+    border       : 2px solid #7233a2;
+    background   : white;
+    color        : #7233a2;
+    padding      : 10px 40px;
+    border-radius: 0px;
+    transition: 0.5s all ease;
+}
+main section.prices .plan-card a.btn:hover{
+    background: #a044ff;
+    border    : none;
+    color     : white;
+}
+main section.prices .col-md-6:nth-child(3) .plan-card {
+    padding-top: 60px ;
+
+    margin-top: 55px;
+}
+
+main section.prices .col-md-6:nth-child(3) .plan-card a.btn {
+    background: #a044ff;
+    border    : none;
+    color     : white;
 }
