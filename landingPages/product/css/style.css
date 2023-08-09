@@ -291,3 +291,7 @@ line-height: 90px !important;
 border: 2px solid white !important;
 border-radius: 50% !important;
 }
+section.contact {
+    padding: 60px 0 40px;
+    background-color: #131313;
+}
