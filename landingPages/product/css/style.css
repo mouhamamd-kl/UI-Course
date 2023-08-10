@@ -276,22 +276,54 @@ section.video .overlay button {
     position: absolute;
     bottom: 50%;
     right: 50%;
-    transform: translate(50%,50%);
+    transform: translate(50%, 50%);
     font-size: 30px;
     color: #fff;
     background: transparent;
     border: 0;
 }
-section.video .overlay button i{
-display: block !important;
-width: 90px !important;
-height: 90px !important;
-margin: 0 auto 45px !important;
-line-height: 90px !important;
-border: 2px solid white !important;
-border-radius: 50% !important;
+
+section.video .overlay button i {
+    display: block !important;
+    width: 90px !important;
+    height: 90px !important;
+    margin: 0 auto 45px !important;
+    line-height: 90px !important;
+    border: 2px solid white !important;
+    border-radius: 50% !important;
 }
+
 section.contact {
     padding: 60px 0 40px;
     background-color: #131313;
+}
+
+section.contact h4 {
+    font-size: 18px;
+    color: #758594;
+    line-height: 50px;
+}
+
+section.contact form input,
+section.contact form textarea {
+    display: block;
+    margin-bottom: 10px;
+    background: #242424;
+    font-size: 18px;
+    line-height: 35px;
+    color: #aeadad;
+    border:none;
+    text-align: right;
+    width: 90%;
+}
+section.contact form button{
+    font-size: 18px;
+    padding:10px 20px;
+    background-color: #a044ff;
+    color:#fff;
+    border:none;
+    border-radius: 3px;
+}
+section.contact form button i{
+    margin-right: 15px;;
 }
