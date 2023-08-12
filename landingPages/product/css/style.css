@@ -1,23 +1,23 @@
 * {
     padding: 0;
-    margin : 0;
+    margin: 0;
 }
 
 @font-face {
     font-family: ar-font;
-    src        : url('../fonts/Cairo-SemiBold.ttf');
+    src: url('../fonts/Cairo-SemiBold.ttf');
 }
 
 body {
-    direction  : rtl;
+    direction: rtl;
     font-family: ar-font !important;
 }
 
 header video {
     min-height: 100%;
-    min-width : 100%;
-    position  : fixed;
-    z-index   : -1;
+    min-width: 100%;
+    position: fixed;
+    z-index: -1;
 }
 
 header .overlay {
@@ -34,33 +34,33 @@ header .header-text {
 }
 
 header .header-text h1 {
-    font-size    : 36px;
+    font-size: 36px;
     margin-bottom: 40px;
-    line-height  : 46px;
-    color        : #555555;
+    line-height: 46px;
+    color: #555555;
 }
 
 header .header-text p {
-    font-size    : 18px;
-    line-height  : 32px;
+    font-size: 18px;
+    line-height: 32px;
     margin-bottom: 50px;
 }
 
 
 header .header-button a.btn {
-    padding         : 22px 55px;
+    padding: 22px 55px;
     background-color: #7936b2;
-    color           : white;
-    margin-left     : 15px;
+    color: white;
+    margin-left: 15px;
 }
 
 header .header-button a.btn:last-child {
     background: transparent;
-    color     : #7936b2;
+    color: #7936b2;
 }
 
 .product {
-    position     : relative;
+    position: relative;
     margin-bottom: 30px;
 }
 
@@ -70,17 +70,17 @@ header .product .product-img img {
 
 header .product-label img {
     position: absolute;
-    top     : -50px;
-    right   : -50px;
+    top: -50px;
+    right: -50px;
 }
 
 header .product-label p {
-    position  : absolute;
-    top       : -25px;
-    right     : 0px;
-    color     : white;
+    position: absolute;
+    top: -25px;
+    right: 0px;
+    color: white;
     text-align: center;
-    font-size : 24px;
+    font-size: 24px;
 }
 
 header .product-label p span {
@@ -88,31 +88,31 @@ header .product-label p span {
 }
 
 main section.features {
-    padding         : 70px 0px;
+    padding: 70px 0px;
     background-color: white;
 }
 
 main section.features .features-title h2 {
-    font-size     : 36px;
-    color         : #555555;
-    line-height   : 32px;
+    font-size: 36px;
+    color: #555555;
+    line-height: 32px;
     padding-bottom: 45px;
-    position      : relative;
+    position: relative;
 }
 
 main section.features .features-title h2::after {
-    content         : "";
-    width           : 150px;
-    height          : 2px;
+    content: "";
+    width: 150px;
+    height: 2px;
     background-color: #7936b2;
-    position        : absolute;
-    bottom          : 0px;
-    left            : 50%;
-    transform       : translateX(-50%);
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 main section.features .media-feature .d-flex {
-    padding      : 70px 0px;
+    padding: 70px 0px;
     border-bottom: 2px solid #eeeeee;
 }
 
@@ -125,56 +125,56 @@ main section.features .media-feature .d-flex img {
 }
 
 main section.features .media-feature .d-flex h4 {
-    font-size    : 36px;
-    font-weight  : bold;
-    color        : #7936b2;
-    padding      : 0px 25px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #7936b2;
+    padding: 0px 25px;
     margin-bottom: 50px;
-    border-right : 2px solid #7936b2;
+    border-right: 2px solid #7936b2;
 }
 
 main section.features .media-feature .d-flex:nth-child(even) h4 {
     border-right: none;
-    border-left : 2px solid #7936b2;
+    border-left: 2px solid #7936b2;
 
 }
 
 main section.features .media-feature .d-flex p {
-    font-size  : 18px;
+    font-size: 18px;
     line-height: 32px;
-    color      : #555555;
+    color: #555555;
 }
 
 main section.prices {
-    padding         : 50px 0px 60px;
+    padding: 50px 0px 60px;
     background-color: #f7f7f7;
 }
 
 main section.prices-text h2 {
     font-size: 30px;
-    color    : #555555;
+    color: #555555;
 }
 
 main section.prices .plan-card {
     background-color: white;
-    border          : 2px solid #ededed;
-    padding         : 15px 0px;
-    margin-top      : 100px;
-    color           : #a9a9ab;
+    border: 2px solid #ededed;
+    padding: 15px 0px;
+    margin-top: 100px;
+    color: #a9a9ab;
 }
 
 main section.prices .plan-card span.title {
     font-size: 18px;
-    color    : #a044ff;
+    color: #a044ff;
 }
 
 main section.prices .plan-card h5 {
     font-size: 48px;
-    margin   : 30px auto;
+    margin: 30px auto;
 }
 
 main section.prices .plan-card h5 span {
-    font-size     : 15px;
+    font-size: 15px;
     vertical-align: bottom;
 }
 
@@ -183,24 +183,24 @@ main section.prices .plan-card ul {
 }
 
 main section.prices .plan-card ul li {
-    list-style   : none;
-    font-size    : 15px;
+    list-style: none;
+    font-size: 15px;
     margin-bottom: 30px;
 }
 
 main section.prices .plan-card a.btn {
-    border       : 2px solid #7233a2;
-    background   : white;
-    color        : #7233a2;
-    padding      : 10px 40px;
+    border: 2px solid #7233a2;
+    background: white;
+    color: #7233a2;
+    padding: 10px 40px;
     border-radius: 0px;
-    transition   : 0.5s all ease;
+    transition: 0.5s all ease;
 }
 
 main section.prices .plan-card a.btn:hover {
     background: #a044ff;
-    border    : none;
-    color     : white;
+    border: none;
+    color: white;
 }
 
 main section.prices .col-md-6:nth-child(3) .plan-card {
@@ -211,36 +211,36 @@ main section.prices .col-md-6:nth-child(3) .plan-card {
 
 main section.prices .col-md-6:nth-child(3) .plan-card a.btn {
     background: #a044ff;
-    border    : none;
-    color     : white;
+    border: none;
+    color: white;
 }
 
 main section.faq {
-    padding         : 55px 0;
+    padding: 55px 0;
     background-color: #fff;
 }
 
 main section.faq .faq-title h2 {
-    font-size    : 30px;
-    color        : #555555;
+    font-size: 30px;
+    color: #555555;
     margin-bottom: 55px;
 }
 
 main section.faq .accordion .accordion-item {
     margin-bottom: 15px;
-    border       : 1px solid #ebebeb;
+    border: 1px solid #ebebeb;
     border-radius: 0;
 }
 
 main section.faq .accordion .accordion-item button {
-    font-size  : 18px;
-    color      : #555555;
+    font-size: 18px;
+    color: #555555;
     font-weight: bold;
 }
 
 main section.faq .accordion .accordion-item .accordion-body {
-    font-size  : 15px;
-    color      : #c9c9c9;
+    font-size: 15px;
+    color: #c9c9c9;
     line-height: 24px;
 }
 
@@ -249,76 +249,76 @@ main section.faq .accordion .accordion-item .accordion-button:not(.collapsed) {
 }
 
 main section.faq .accordion .accordion-item .accordion-button:focus {
-    border    : 0;
+    border: 0;
     box-shadow: 0 0 0;
 }
 
 main section.video {
     min-height: 100vh;
-    position  : relative;
-    overflow  : hidden;
+    position: relative;
+    overflow: hidden;
 }
 
 main section.video video {
     min-height: 100%;
-    min-width : 100%;
-    position  : absolute;
-    top       : 0;
-    left      : 0;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 main section.video .overlay {
     background-color: rgba(130, 77, 178, 0.9);
-    min-height      : 100%;
-    min-width       : 100%;
-    position        : absolute;
-    top             : 0;
-    left            : 0;
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 section.video .overlay button {
-    position  : absolute;
-    bottom    : 50%;
-    right     : 50%;
-    transform : translate(50%, 50%);
-    font-size : 30px;
-    color     : #fff;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    font-size: 30px;
+    color: #fff;
     background: transparent;
-    border    : 0;
+    border: 0;
 }
 
 section.video .overlay button i {
-    display      : block !important;
-    width        : 90px !important;
-    height       : 90px !important;
-    margin       : 0 auto 45px !important;
-    line-height  : 90px !important;
-    border       : 2px solid white !important;
+    display: block !important;
+    width: 90px !important;
+    height: 90px !important;
+    margin: 0 auto 45px !important;
+    line-height: 90px !important;
+    border: 2px solid white !important;
     border-radius: 50% !important;
 }
 
 section.contact {
-    padding         : 60px 0 40px;
+    padding: 60px 0 40px;
     background-color: #131313;
 }
 
 section.contact h4 {
-    font-size  : 18px;
-    color      : #758594;
+    font-size: 18px;
+    color: #758594;
     line-height: 50px;
 }
 
 section.contact form input,
 section.contact form textarea {
-    display      : block;
+    display: block;
     margin-bottom: 10px;
-    background   : #242424;
-    font-size    : 18px;
-    line-height  : 35px;
-    color        : #aeadad;
-    border       : none;
-    text-align   : right;
-    width        : 90%;
+    background: #242424;
+    font-size: 18px;
+    line-height: 35px;
+    color: #aeadad;
+    border: none;
+    text-align: right;
+    width: 90%;
 }
 
 section.contact form input::placeholder,
@@ -327,12 +327,12 @@ section.contact form textarea::placeholder {
 }
 
 section.contact form button {
-    font-size       : 18px;
-    padding         : 10px 20px;
+    font-size: 18px;
+    padding: 10px 20px;
     background-color: #a044ff;
-    color           : #fff;
-    border          : none;
-    border-radius   : 3px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
 }
 
 section.contact form button i {
@@ -340,7 +340,7 @@ section.contact form button i {
 }
 
 section.contact form .invalid-feedback {
-    margin-top   : -15px !important;
+    margin-top: -15px !important;
     margin-bottom: 10px;
 }
 
@@ -354,32 +354,32 @@ section.contact .blog a.blog-link .d-flex {
 }
 
 section.contact .blog a.blog-link h5 {
-    color        : #a4a3a3 !important;
-    font-size    : 18px;
+    color: #a4a3a3 !important;
+    font-size: 18px;
     margin-bottom: 15px;
 }
 
 section.contact .blog a.blog-link p {
-    color      : #737373;
-    font-size  : 15px;
+    color: #737373;
+    font-size: 15px;
     line-height: 25px;
 }
 
 footer {
     background: #1d1d1d;
-    padding   : 25px 0;
+    padding: 25px 0;
 }
 
 footer .list-inline .list-inline-item a {
-    width           : 40px;
-    height          : 40px;
-    line-height     : 40px;
-    display         : block;
-    color           : #1d1d1d;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #1d1d1d;
     background-color: #758594;
-    text-align      : center;
-    border-radius   : 50%;
-    transition      : ease-in 0.5;
+    text-align: center;
+    border-radius: 50%;
+    transition: ease-in 0.5;
 }
 
 footer .list-inline .list-inline-item a:hover {
@@ -387,7 +387,7 @@ footer .list-inline .list-inline-item a:hover {
 }
 
 footer .copyright {
-    color     : #919191;
+    color: #919191;
     text-align: left;
 }
 
@@ -405,13 +405,37 @@ footer .copyright {
 
     header .product-label p {
         right: 45%;
-        transform: translateX(50%);    }
+        transform: translateX(50%);
+    }
 
     header .product-label img {
         right: 45%;
         transform: translateX(50%);
     }
-    main section.features .media-feature .d-flex{
-        display: block !important;
+
+    main section.features .media-feature .d-flex {
+        flex-flow: column;
+        text-align: center;
+
+    }
+
+    main section.features .media-feature .d-flex img {
+        margin: 0 auto 50px auto;
+    }
+
+    main section.features .media-feature .d-flex h4
+     {
+        border: none !important;
+    }
+    section.contact h4{
+        margin-top: 25px;
+    }
+}
+@media(max-width:576px){
+    footer{
+        text-align: center;
+    }
+    footer .copyright p{
+        text-align: center;
     }
 }
