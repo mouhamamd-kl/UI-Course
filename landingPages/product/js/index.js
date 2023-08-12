@@ -8,6 +8,7 @@ function playVid(){
         video.pause();
     }
 }
+document.getElementById("fullyear").innerHTML=new Date().getFullYear();
 // Example starter JavaScript for disabling form submissions if there are invalid fields
 (() => {
     'use strict'

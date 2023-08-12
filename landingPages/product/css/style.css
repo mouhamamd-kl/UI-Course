@@ -64,6 +64,10 @@ header .header-button a.btn:last-child {
     margin-bottom: 30px;
 }
 
+header .product .product-img img {
+    width: 100%;
+}
+
 header .product-label img {
     position: absolute;
     top     : -50px;
@@ -367,16 +371,47 @@ footer {
 }
 
 footer .list-inline .list-inline-item a {
-    width      : 40px;
-    height     : 40px;
-    line-height: 40px;
-    display    : block;
-    color      : #1d1d1d;
-    background-color:#758594;
-    text-align: center;
-    border-radius: 50%;
-    transition:ease-in 0.5;
+    width           : 40px;
+    height          : 40px;
+    line-height     : 40px;
+    display         : block;
+    color           : #1d1d1d;
+    background-color: #758594;
+    text-align      : center;
+    border-radius   : 50%;
+    transition      : ease-in 0.5;
 }
-footer .list-inline .list-inline-item a:hover{
-    background-color:#7233a2 !important;
+
+footer .list-inline .list-inline-item a:hover {
+    background-color: #7233a2 !important;
+}
+
+footer .copyright {
+    color     : #919191;
+    text-align: left;
+}
+
+@media (max-width:992px) {
+    header .header-text {
+        padding-top: 80px;
+    }
+
+}
+
+@media (max-width:768px) {
+    header .overlay .product {
+        margin-top: 80px;
+    }
+
+    header .product-label p {
+        right: 45%;
+        transform: translateX(50%);    }
+
+    header .product-label img {
+        right: 45%;
+        transform: translateX(50%);
+    }
+    main section.features .media-feature .d-flex{
+        display: block !important;
+    }
 }
