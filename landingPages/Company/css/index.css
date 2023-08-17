@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
 
 * {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 
 @font-face {
     font-family: ar-font;
-    src: url(../fonts/Cairo-SemiBold.ttf);
+    src        : url(../fonts/Cairo-SemiBold.ttf);
 }
 
 body {
@@ -23,37 +23,41 @@ nav.navbar .navbar-brand img {
 }
 
 nav.navbar .navbar-nav .nav-item a.nav-link {
-    font-size: 16px !important;
-    color: #e8e8e8 !important;
+    font-size  : 16px !important;
+    color      : #e8e8e8 !important;
     line-height: 40px !important;
-    padding: 0 16px !important;
-    transition: 0.5s;
+    padding    : 0 16px !important;
+    transition : 0.5s;
 }
 
 nav.navbar .navbar-nav .nav-item a.nav-link:hover,
 nav.navbar .navbar-nav .nav-item a.nav-link.active {
     background-color: #e8e8e8 !important;
-    color: #16aeca !important;
+    color           : #16aeca !important;
 }
 
 nav.navbar.noTransparent {
     background-color: #fff !important;
-    border-bottom: 1px solid #eee !important;
+    border-bottom   : 1px solid #eee !important;
 }
-nav.navbar.noTransparent .nav-item a.nav-link.active{
+
+nav.navbar.noTransparent .nav-item a.nav-link.active {
     color: #16aeca !important;
 }
+
 nav.navbar.noTransparent .navbar-nav .nav-item a.nav-link:hover,
-nav.navbar.noTransparent .navbar-nav .nav-item a.nav-link.active{
-    color: #dae413 !important;
+nav.navbar.noTransparent .navbar-nav .nav-item a.nav-link.active {
+    color           : #dae413 !important;
     background-color: #16aeca !important;
 }
-nav.navbar.noTransparent button.navbar-toggler{
+
+nav.navbar.noTransparent button.navbar-toggler {
     color: #16aeca !important;
 }
+
 header {
-    background-image: url(../images/bg.jpg);
-    background-size: cover;
+    background-image   : url(../images/bg.jpg);
+    background-size    : cover;
     background-position: center;
 }
 
@@ -61,40 +65,93 @@ header .overlay {
     background: linear-gradient(to right, rgba(46, 178, 181, 0.8), rgba(197, 203, 50, 0.8));
     min-height: 100vh;
 }
-header .overlay .carousel .carousel-item{
-    min-height: 100vh;
-    position: relative;
-}
-header .overlay .carousel .carousel-item .carousel-content{
-    position: absolute;
-    top: 40%;
-    right: 15%;
-    left: 15%;
-    text-align: center;
-    z-index: 10;
-}
-header .overlay .carousel .carousel-item .carousel-content h2{
-    font-size: 40px;
-    line-height: 52px;
-    margin-bottom: 60px;
-    color: #fff;
-}
-header .overlay .carousel .carousel-item .carousel-content a{
-    text-decoration: none;
-    color: #fff;
-    padding: 13px 47px;
-    background-color: #16aeca;
-    font-size: 18px;
-    border-radius: 30px;
-    transition: 0.5s;
-}
-header .overlay .carousel .carousel-item .carousel-content a:hover{
 
-    color: #16aeca;
-background-color: #fff;
+header .overlay .carousel .carousel-item {
+    min-height: 100vh;
+    position  : relative;
 }
+
+header .overlay .carousel .carousel-item .carousel-content {
+    position  : absolute;
+    top       : 40%;
+    right     : 15%;
+    left      : 15%;
+    text-align: center;
+    z-index   : 10;
+}
+
+header .overlay .carousel .carousel-item .carousel-content h2 {
+    font-size    : 40px;
+    line-height  : 52px;
+    margin-bottom: 60px;
+    color        : #fff;
+}
+
+header .overlay .carousel .carousel-item .carousel-content a {
+    text-decoration : none;
+    color           : #fff;
+    padding         : 13px 47px;
+    background-color: #16aeca;
+    font-size       : 18px;
+    border-radius   : 30px;
+    transition      : 0.5s;
+}
+
+header .overlay .carousel .carousel-item .carousel-content a:hover {
+
+    color           : #16aeca;
+    background-color: #fff;
+}
+
 @media (max-width:992px) {
     .navbar-collapse {
         text-align: left;
     }
+}
+
+section.services {
+    padding: 80px 0;
+}
+
+section.services .services-title h3 {
+    font-size    : 40px;
+    margin-bottom: 50px;
+    color        : #070c0c;
+}
+
+section.services .card {
+    height       : 330px;
+    padding      : 50px 50px;
+    margin-bottom: 50px;
+    transition   : all 1s ease-in-out;
+}
+
+
+
+section.services .card:hover {
+    height: 440px;
+
+}
+
+
+section.services .card .card-img {
+    padding-bottom: 45px;
+}
+
+section.services .card .card-block h4 {
+    font-size    : 24px;
+    color        : #070c0c;
+    margin-bottom: 25px;
+}
+
+section.services .card .card-block p {
+    font-size  : 15px;
+    line-height: 21px;
+    color      : #919191;
+    opacity    : 0;
+    transition   : all 1.5s ease;
+}
+
+section.services .card:hover .card-block p {
+    opacity: 1 !important;
 }
