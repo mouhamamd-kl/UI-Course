@@ -1,210 +1,604 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/index.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./asset/bootstrap/css/bootstrap.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./css/index.css">
+    </head>
 
-<body data-bs-spy="scroll" data-bs-target="#navbar">
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./images/logo.png" alt>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent">
-                <!-- <span class="navbar-toggler-icon"></span> -->
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="#services">خدمات
-                            الشركة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gallery">المشاريع السابقة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#statistics">احصائيات
-                            الشركة</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacts">تواصل معنا</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <header>
-        <div class="overlay">
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="carousel-content">
-                            <h2>
-                                وكالتنا متخصصة في برمجة وتصميم المواقع
-                                الالكترونية وتطبيقات الموبايل
-                            </h2>
-                            <a href="#gallery">تصفح أعمالنا</a>
-
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <div class="carousel-content">
-                            <h2> وكالتنا متخصصة في برمجة وتصميم المواقع
-                                الالكترونية وتطبيقات الموبايل
-                            </h2>
-                            <a href="#contacts">تواصل معنا
-                            </a>
-
-                        </div>
-
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+    <body data-bs-spy="scroll" data-bs-target="#navbar">
+        <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt>
+                </a>
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#services">خدمات
+                                الشركة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#gallery">المشاريع السابقة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#statistics">احصائيات
+                                الشركة</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">تواصل معنا</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-    </header>
-    <main>
-        <section class="services" id="services">
-            <div class="services-title">
-                <h3 class="text-center">خدمات الشركة</h3>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <div class="card-img">
-                                    <img src="./images/feature-1.png" alt="">
+        </nav>
+        <header>
+            <div class="overlay">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-content">
+                                <h2>
+                                    وكالتنا متخصصة في برمجة وتصميم المواقع
+                                    الالكترونية وتطبيقات الموبايل
+                                </h2>
+                                <a href="#gallery">تصفح أعمالنا</a>
+
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-content">
+                                <h2> وكالتنا متخصصة في برمجة وتصميم المواقع
+                                    الالكترونية وتطبيقات الموبايل
+                                </h2>
+                                <a href="#contacts">تواصل معنا
+                                </a>
+
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon"
+                                aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+            <main>
+                <section class="services" id="services">
+                    <div class="services-title">
+                        <h3 class="text-center">خدمات الشركة</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card text-center">
+                                        <div class="card-img">
+                                            <img src="./images/feature-1.png"
+                                                alt>
+                                        </div>
+                                        <div class="card-block">
+                                            <h4>تصميم المواقع والتطبيقات</h4>
+                                            <p>
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة ما
+                                                سيلهي القارئ عن
+                                                التركيز على الشكل الخارجي
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-block">
-                                    <h4>تصميم المواقع والتطبيقات</h4>
-                                    <p>
-                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن
-                                        التركيز على الشكل الخارجي
-                                    </p>
+                                <div class="col-md-4">
+                                    <div class="card text-center">
+                                        <div class="card-img">
+                                            <img src="./images/feature-2.png"
+                                                alt>
+                                        </div>
+                                        <div class="card-block">
+                                            <h4>برمجة المواقع الالكترونية
+
+                                            </h4>
+                                            <p>
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة ما
+                                                سيلهي القارئ عن
+                                                التركيز على الشكل الخارجي
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center">
+                                        <div class="card-img">
+                                            <img src="./images/feature-3.png"
+                                                alt>
+                                        </div>
+                                        <div class="card-block">
+                                            <h4>
+                                                انتاج ومونتاج الفيديو
+                                            </h4> <p>
+                                                هناك حقيقة مثبتة منذ زمن طويل
+                                                وهي أن المحتوى المقروء لصفحة ما
+                                                سيلهي القارئ عن
+                                                التركيز على الشكل الخارجي
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <div class="card-img">
-                                    <img src="./images/feature-2.png" alt="">
-                                </div>
-                                <div class="card-block">
-                                    <h4>برمجة المواقع الالكترونية
-                                
-                                    </h4>
-                                    <p>
-                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن
-                                        التركيز على الشكل الخارجي
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="card text-center">
-                                <div class="card-img">
-                                    <img src="./images/feature-3.png" alt="">
-                                </div>
-                                <div class="card-block">
-                                    <h4>
-انتاج ومونتاج الفيديو                                
-                                    </h4>                                    <p>
-                                        هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن
-                                        التركيز على الشكل الخارجي
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <section class="gallery" id="gallery">
-            <div class="gallery-title text-center">
-                <h3 >
-                    أعمال الشركة
-                </h3>
-            </div>
-            <div class="gallery-work">
-                
-                <div class="row g-0">
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/1.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
+                </section>
+                <section class="gallery" id="gallery">
+                    <div class="gallery-title text-center">
+                        <h3>
+                            أعمال الشركة
+                        </h3>
                     </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/2.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/3.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/4.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/5.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/6.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/7.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-sm-6">
-                        <a href="#" class="gallery-link">
-                            <img src="./images/gallery/8.jpg" alt="">
-                            <div class="gallery-hover"><i class="fas fa-search-plus"></i></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="statistics" id="statistics"></section>
-        <section class="contacts" id="contacts"></section>
-    </main>
-    <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
-</body>
+                    <div class="gallery-work">
 
-</html>
+                        <div class="row g-0">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img2" class="gallery-link" id="img1">
+                                    <img src="./images/gallery/1.jpg" alt >
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img1">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/1.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img2" class="gallery-link">
+                                    <img src="./images/gallery/2.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img2">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/1.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img3" class="gallery-link">
+                                    <img src="./images/gallery/3.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/3.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img4" class="gallery-link">
+                                    <img src="./images/gallery/4.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img4">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/4.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img5" class="gallery-link">
+                                    <img src="./images/gallery/5.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img5">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/5.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img6" class="gallery-link">
+                                    <img src="./images/gallery/6.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img6">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/6.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img7" class="gallery-link">
+                                    <img src="./images/gallery/7.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img7">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/7.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#img8" class="gallery-link">
+                                    <img src="./images/gallery/8.jpg" alt>
+                                    <div class="gallery-hover"><i
+                                            class="fas fa-search-plus"></i></div>
+                                </a>
+                                <div class="gallery-overlay" id="img8">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="overlay-image">
+                                                <img
+                                                    src="./images/gallery/8.jpg"
+                                                    alt>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="overlay-text">
+                                                <h4>تصميم فديو لمؤسسة الابداع
+                                                    لتطوير
+                                                    وتصميم الويب</h4>
+                                                <ul class="list-inline">
+                                                    <li
+                                                        class="list-inline-item ">
+                                                        <i class="fas fa-tags"></i>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">after
+                                                            effect,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">video
+                                                            editing,</a>
+                                                    </li>
+                                                    <li class="list-inline-item">
+                                                        <a href="#">photoshop,</a>
+                                                    </li>
+                                                </ul>
+                                                <p>هناك حقيقة مثبتة منذ زمن طويل
+                                                    وهي أن المحتوى المقروء لصفحة
+                                                    ما سيلهي القارئ عن التركيز
+                                                    على الشكل الخارجي للنص أو
+                                                    شكل توضع الفقرات في الصفحة
+                                                    التي يقرأها. ولذلك يتم
+                                                    استخدام طريقة لوريم إيبسوم
+                                                    لأنها تعطي توزيعاَ طبيعياَ
+                                                    -إلى حد ما- للأحرف </p>
+                                                    <a href="" class="btn">زيارة المشروع</a>
+                                                    <a href="#page">X</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="statistics" id="statistics"></section>
+                <section class="contacts" id="contacts"></section>
+            </main>
+            <footer></footer>
+            <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="./js/index.js"></script>
+        </body>
+
+    </html>
