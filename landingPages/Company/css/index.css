@@ -297,25 +297,67 @@ section.statistics .overlay span.counter {
 section.contacts {
     padding: 100px 0 60px;
 }
-section.contacts .map iframe{
+
+section.contacts .map iframe {
     height: 200px;
     width: 90%;
 }
-section.contacts .contacts-addressess h4{
+
+section.contacts .contacts-addressess h4 {
     font-size: 24px;
     color: #181c1c;
     margin-bottom: 40px;
 }
-section.contacts .contacts-addressess ul{
+
+section.contacts .contacts-addressess ul {
     padding: 0;
     list-style: none;
 }
-section.contacts .contacts-addressess ul li{
+
+section.contacts .contacts-addressess ul li {
     font-size: 18px !important;
     line-height: 25px !important;
     color: #16aeca !important;
     margin-bottom: 15px !important;
 }
-section.contacts .contacts-addressess ul li address{
+
+section.contacts .contacts-addressess ul li address {
     display: inline;
+}
+
+section.contacts .contacts-text {
+    margin: 50px auto 20px;
+}
+
+section.contacts .contacts-text h3 {
+    font-size: 24px;
+    color: #181c1c;
+    font-weight: bold;
+}
+
+section.contacts .contact-form {
+    width: 60%;
+    margin: auto
+}
+
+section.contacts .contact-form input,
+section.contacts .contact-form textarea {
+    background-color: #f7f7f7;
+    border: 2px solid #ececec !important;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 3px;
+    text-align: right;
+}
+section.contacts .contact-form button{
+    border-radius: 3px;
+    border: 0;
+    width: auto;
+    background-color: #16aeca;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 15px;
+    text-align: center;
+    width: 15%;
 }
