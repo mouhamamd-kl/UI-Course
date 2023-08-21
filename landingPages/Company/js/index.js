@@ -37,4 +37,9 @@ window.onload=function(){
         form.classList.add('was-validated')
       }, false)
     })
-  })()
+  })
+
+  var e = document.getElementById("fullYear");
+  var date = new Date();
+  e.innerText = date.getFullYear();
+  
