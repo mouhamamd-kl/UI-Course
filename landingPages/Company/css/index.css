@@ -111,7 +111,7 @@ header .overlay .carousel .carousel-item .carousel-content a:hover {
 
 section.services {
     padding: 80px 0;
-    height: 700px !important;
+    height: 700px;
 }
 
 section.services .services-title h3 {
@@ -392,31 +392,36 @@ footer.footer .top-footer .about-us p {
     color: #919191;
     margin-bottom: 60px;
 }
-footer.footer .top-footer .about-us ul a{
+
+footer.footer .top-footer .about-us ul a {
     width: 35px;
     height: 35px;
     line-height: 35px;
     background-color: #333333;
-    color:#acacac;
+    color: #acacac;
     display: block;
     border-radius: 2px;
     text-align: center;
-    transition:all 0.5s ease;
+    transition: all 0.5s ease;
 }
-footer.footer .top-footer .about-us ul a:hover{
+
+footer.footer .top-footer .about-us ul a:hover {
     background-color: #16aeca;
     color: #fff;
 }
-footer.footer .top-footer .contact-us ul.contact-list{
+
+footer.footer .top-footer .contact-us ul.contact-list {
     list-style: none;
     padding: 0;
 }
-footer.footer .top-footer .contact-us ul.contact-list li{
+
+footer.footer .top-footer .contact-us ul.contact-list li {
     font-size: 18px;
     color: #676767;
     margin-bottom: 35px;
 }
-footer.footer .top-footer .contact-us ul.contact-list li  i{
+
+footer.footer .top-footer .contact-us ul.contact-list li i {
     width: 35px;
     height: 35px;
     line-height: 35px;
@@ -426,12 +431,76 @@ footer.footer .top-footer .contact-us ul.contact-list li  i{
     border-radius: 2px;
     margin-left: 15px;
 }
-footer.footer .copyright{
+
+footer.footer .copyright {
     background-color: #111111;
     padding: 30px 0;
 }
-footer.footer .copyright p{
+
+footer.footer .copyright p {
     font-size: 15px;
     color: #acacac;
     text-align: center;
+}
+
+@media (max-width:992px) {
+    section.services .card {
+        padding: 20px;
+        height: 420px;
+    }
+
+    section.services .card .card-img {
+        margin-bottom: 35px;
+    }
+
+    section.services .card .card-block h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    section.services .card .card-block p {
+        opacity: 1;
+    }
+
+    section.contacts .map iframe {
+        width: 100%;
+    }
+
+    section.contacts .contact-form {
+        width: 80%;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    section.gallery .gallery-work .gallery-overlay {
+        margin-top: -170vh;
+    }
+
+    section.services {
+        height: auto !important;
+    }
+
+    section.gallery .gallery-work .gallery-overlay .overlay-image img {
+        display: none;
+    }
+
+    section.contacts .map {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width:576px) {
+    section.statistics .overlay .col-md-3 {
+        margin-bottom: 60px;
+    }
+
+    header .overlay .carousel  button {
+        display: none;
+    }
+    section.contacts .contact-form button{
+        width: 20%;
+        padding: 12px 28px;
+    }
 }
