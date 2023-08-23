@@ -1,14 +1,65 @@
-*{
+* {
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
-header.header{
-    background-image: url(../images/bg.jpg);
-    background-position: center;
-    background-size: cover;
+
+@font-face {
+    font-family: cairo;
+    src        : url(../fonts/Cairo-SemiBold.ttf);
+}
+
+body {
+    font-family: cairo;
+}
+
+header.header {
+    background-image     : url(../images/bg.jpg);
+    background-position  : center;
+    background-size      : cover;
     background-attachment: fixed;
 }
-header.header .overlay{
+
+header.header .overlay {
     background-color: rgba(239, 71, 58, 0.8);
-    padding-top: 90px;
+    padding-top     : 90px;
+    position        : relative;
+    /* overflow        : hidden; */
+}
+
+header.header .overlay .header-block {
+    margin-top: 120px;
+}
+
+header.header .overlay .header-block .header-brand {
+    margin-bottom: 65px;
+
+}
+
+header.header .overlay .header-block h1 {
+    font-size    : 30px;
+    color        : #fff;
+    line-height  : 37.5px;
+    margin-bottom: 60px;
+}
+
+header.header .overlay .header-block p {
+    font-size    : 18px;
+    line-height  : 33px;
+    color        : #fff;
+    margin-bottom: 85px;
+}
+
+header.header .overlay .header-block .header-buttons a img {
+    width: 250px;
+}
+
+header.header .overlay .header-block .header-buttons a:nth-child(2) img {
+    height: 65px;
+}
+
+header.header .overlay .header-img img {
+    max-width: 100%;
+    position : absolute;
+    bottom   : -210px;
+    top      : 0px;
 }
