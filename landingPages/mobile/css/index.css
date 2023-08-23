@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header.header{
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+header.header .overlay{
+    background-color: rgba(239, 71, 58, 0.8);
+    padding-top: 90px;
+}
