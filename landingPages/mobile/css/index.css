@@ -58,6 +58,7 @@ header.header .overlay .header-block .header-buttons a:nth-child(2) img {
 }
 
 header.header .overlay .header-img img {
+
     max-width: 100%;
     position : absolute;
     bottom   : -210px;
