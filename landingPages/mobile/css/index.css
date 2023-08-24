@@ -64,3 +64,43 @@ header.header .overlay .header-img img {
     bottom   : -210px;
     top      : 0px;
 }
+main section.feature {
+    padding: 80px 0;
+    background-color: #fff;
+    position: relative;
+}
+main section.feature .col-md-4:nth-child(1){
+    direction: ltr;
+}
+main section.feature .col-md-4 .features{
+    margin-top: 90px;
+}
+main section.feature .col-md-4 .features .d-flex{
+   margin-bottom: 70px;
+}
+
+main section.feature .col-md-4 .features .d-flex .flex-shrink-0 i{
+    background-color: #ef473a;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: white;
+    display: block;
+    border-radius: 2px;
+text-align: center;
+}
+main section.feature .col-md-4 .features .d-flex  h5{
+    font-size: 24px;
+    color: #080808;
+    /* line-height: 20px; */
+    margin-bottom: 12px;
+}
+
+main section.feature .col-md-4 .features .d-flex  p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+main section.feature .col-md-4 .feature-img img{
+    width: 80%;
+}
