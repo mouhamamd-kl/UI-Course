@@ -104,3 +104,30 @@ main section.feature .col-md-4 .features .d-flex  p{
 main section.feature .col-md-4 .feature-img img{
     width: 80%;
 }
+main section.option {
+    background-color: #f9f8f8;
+    padding-top: 120px;
+    position: relative;
+}
+main section.option .options{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+main section.option .options .d-flex{
+    margin-bottom: 60px;
+}
+main section.option .options .d-flex h5{
+    font-size: 24px;
+    line-height: 40px;
+    color: #141414;
+}
+main section.option .options .d-flex p{
+    font-size: 15px;
+    line-height: 20px;
+    color: #757474;
+}
+
+main section.option .option-img{
+    position: absolute;
+    bottom: -150px;
+}
