@@ -213,26 +213,90 @@ section.faq .accordion .accordion-item {
     border-radius: 0;
     border: 0;
 }
-section.faq .accordion .accordion-item .accordion-header button{
+
+section.faq .accordion .accordion-item .accordion-header button {
     background-color: rgba(255, 255, 255, 0.2);
     font-size: 18px;
     color: #fff;
 }
-section.faq .accordion .accordion-item .accordion-header button:focus{
-   border-color: transparent;
-   box-shadow: none;
+
+section.faq .accordion .accordion-item .accordion-header button:focus {
+    border-color: transparent;
+    box-shadow: none;
 }
+
 section.faq .accordion .accordion-item .accordion-header button::after {
-content: none;
+    content: none;
 }
+
 section.faq .accordion .accordion-item .accordion-header button i {
     margin-right: auto;
 }
+
 section.faq .accordion .accordion-item .accordion-header button.collapsed i {
     transform: rotate(180deg) !important;
 }
+
 section.faq .accordion .accordion-item .accordion-body {
     color: #c9c9c9;
     font-size: 15px;
     line-height: 20px;
+}
+
+footer.footer {
+    padding-top: 70px;
+    background-color: #232323;
+}
+
+footer.footer .top-footer {
+    border-bottom: solid 2px #292828;
+    padding-bottom: 90px;
+}
+
+footer.footer .top-footer .widget h4 {
+    font-size: 24px;
+    line-height: 25px;
+    word-spacing: 5px;
+    padding-bottom: 25px;
+    color: #f4f8fb;
+    border-bottom: 2px solid #292828;
+    position: relative;
+}
+
+footer.footer .top-footer .widget h4::after {
+    content: "";
+    width: 90px;
+    height: 2px;
+    background-color: #ef473a;
+    position: absolute;
+    right: 0;
+    bottom: -1px;
+}
+
+footer.footer .top-footer .widget p.aboutus-p {
+    font-size: 18px;
+    line-height: 40px;
+    color: #757474;
+    margin-bottom: 100px;
+}
+
+footer.footer .top-footer .widget ul.list-inline li.list-inline-item a {
+    text-decoration: none;
+}
+
+footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i {
+    width: 50px;
+    height: 50px;
+    font-size: 17px;
+    line-height: 50px;
+    background-color: #343637;
+    border-radius: 50%;
+    display: block;
+    text-align: center;
+    color: #fff;
+    transition: all .5s ease;
+}
+
+footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i:hover {
+    background-color: #ef473a;
 }
