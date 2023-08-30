@@ -248,9 +248,7 @@ footer.footer {
     background-color: #232323;
 }
 
-footer.footer .top-footer .row .col-md-4 {
-    margin-left: 30px;
-}
+
 
 footer.footer .top-footer {
     border-bottom: solid 2px #292828;
@@ -265,6 +263,7 @@ footer.footer .top-footer .widget h4 {
     color: #f4f8fb;
     border-bottom: 2px solid #292828;
     position: relative;
+    margin-bottom: 35px;
 }
 
 footer.footer .top-footer .widget h4::after {
@@ -304,26 +303,64 @@ footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i {
 footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i:hover {
     background-color: #ef473a;
 }
-footer.footer .top-footer .widget ul.tweets{
+
+footer.footer .top-footer .widget ul.tweets {
     padding-right: 0px;
 }
+
 footer.footer .top-footer .widget ul.tweets li {
     list-style-type: none;
     padding: 0;
 }
-footer.footer .top-footer .widget ul.tweets li:not(:last-child){
+
+footer.footer .top-footer .widget ul.tweets li:not(:last-child) {
     padding-bottom: 20px;
     margin-bottom: 20px;
     border-bottom: 2px solid #292828;
 }
 
-footer.footer .top-footer .widget ul.tweets li p{
+footer.footer .top-footer .widget ul.tweets li p {
     font-size: 15px;
     color: #757474;
     line-height: 24px;
     display: inline;
     margin-right: 5px;
 }
-footer.footer .top-footer .widget ul.tweets li i{
+
+footer.footer .top-footer .widget ul.tweets li i {
     color: #ef473a;
+}
+
+footer.footer .top-footer .widget form input[type="email"] {
+    font-size: 14px;
+    color: #c6c6c6;
+    line-height: 25px;
+    background-color: #2c2b2b;
+    margin-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    text-align: right;
+}
+
+footer.footer .widget form input[type="email"]::placeholder {
+    color: #c6c6c6;
+}
+
+footer.footer .widget form input[type="email"]:focus {
+    border: 0;
+    box-shadow: none;
+}
+footer.footer .widget form button.btn{
+    font-size: 14px;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background-color: #ef473a;
+    color: #fff;
+    line-height: 25px;
+    text-align: center;
+    padding: 10px 30px;
+}
+footer.footer .widget form .invalid-feedback{
+    margin-top: -15px;
+    margin-bottom: 20px;
 }
