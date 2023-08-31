@@ -140,7 +140,7 @@ main section.option .options .d-flex p {
 
 main section.option .option-img {
     position: absolute;
-    bottom: -150px;
+    bottom: -71px;
 }
 
 main section.slider {
@@ -370,4 +370,30 @@ footer.footer .copyright {
     line-height: 40px;
     color: #565656;
     padding: 15px 0;
+}
+@media (max-width:1199px){
+    main section.option .option-img{
+        right: 40px !important;
+    }
+}
+@media (max-width:992px)and (min-width:768px){
+    header.header .overlay{
+        padding: 10px;
+    }
+    main section.option .option-img{
+        right: -5px !important;
+    }
+    header.header .overlay .header-img img{
+        right: 50px;
+    }     
+    main section.feature .col-md-4 .features .d-flex h5{
+        font-size: 20px;
+    }
+    section.feature .features .d-flex p{
+        font-size: 10px;
+        line-height: 15px;
+    }         
+    main section.feature .col-md-4 .feature-img img{
+        margin-top: 180px;
+    }                                                                                                                                                                                                                                                                                          
 }
