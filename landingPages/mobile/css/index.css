@@ -1,11 +1,11 @@
 * {
     padding: 0;
-    margin: 0;
+    margin : 0;
 }
 
 @font-face {
     font-family: cairo;
-    src: url(../fonts/Cairo-SemiBold.ttf);
+    src        : url(../fonts/Cairo-SemiBold.ttf);
 }
 
 body {
@@ -13,16 +13,16 @@ body {
 }
 
 header.header {
-    background-image: url(../images/bg.jpg);
-    background-position: center;
-    background-size: cover;
+    background-image     : url(../images/bg.jpg);
+    background-position  : center;
+    background-size      : cover;
     background-attachment: fixed;
 }
 
 header.header .overlay {
-    background-color: rgba(239, 71, 58, 0.8);
-    padding-top: 90px;
-    position: relative;
+    background-color   : rgba(239, 71, 58, 0.8);
+    padding-top        : 90px;
+    position           : relative;
     /* overflow        : hidden; */
 }
 
@@ -36,16 +36,16 @@ header.header .overlay .header-block .header-brand {
 }
 
 header.header .overlay .header-block h1 {
-    font-size: 30px;
-    color: #fff;
-    line-height: 37.5px;
+    font-size    : 30px;
+    color        : #fff;
+    line-height  : 37.5px;
     margin-bottom: 60px;
 }
 
 header.header .overlay .header-block p {
-    font-size: 18px;
-    line-height: 33px;
-    color: #fff;
+    font-size    : 18px;
+    line-height  : 33px;
+    color        : #fff;
     margin-bottom: 85px;
 }
 
@@ -60,15 +60,15 @@ header.header .overlay .header-block .header-buttons a:nth-child(2) img {
 header.header .overlay .header-img img {
 
     max-width: 100%;
-    position: absolute;
-    bottom: -210px;
-    top: 0px;
+    position : absolute;
+    bottom   : -210px;
+    top      : 0px;
 }
 
 main section.feature {
-    padding: 80px 0;
+    padding         : 80px 0;
     background-color: #fff;
-    position: relative;
+    position        : relative;
 }
 
 main section.feature .col-md-4:nth-child(1) {
@@ -85,26 +85,26 @@ main section.feature .col-md-4 .features .d-flex {
 
 main section.feature .col-md-4 .features .d-flex .flex-shrink-0 i {
     background-color: #ef473a;
-    width: 70px;
-    height: 70px;
-    line-height: 70px;
-    color: white;
-    display: block;
-    border-radius: 2px;
-    text-align: center;
+    width           : 70px;
+    height          : 70px;
+    line-height     : 70px;
+    color           : white;
+    display         : block;
+    border-radius   : 2px;
+    text-align      : center;
 }
 
 main section.feature .col-md-4 .features .d-flex h5 {
-    font-size: 24px;
-    color: #080808;
+    font-size     : 24px;
+    color         : #080808;
     /* line-height: 20px; */
-    margin-bottom: 12px;
+    margin-bottom : 12px;
 }
 
 main section.feature .col-md-4 .features .d-flex p {
-    font-size: 15px;
+    font-size  : 15px;
     line-height: 20px;
-    color: #757474;
+    color      : #757474;
 }
 
 main section.feature .col-md-4 .feature-img img {
@@ -113,12 +113,12 @@ main section.feature .col-md-4 .feature-img img {
 
 main section.option {
     background-color: #f9f8f8;
-    padding-top: 120px;
-    position: relative;
+    padding-top     : 120px;
+    position        : relative;
 }
 
 main section.option .options {
-    margin-top: 40px;
+    margin-top  : 40px;
     margin-right: 40px;
 }
 
@@ -127,50 +127,50 @@ main section.option .options .d-flex {
 }
 
 main section.option .options .d-flex h5 {
-    font-size: 24px;
+    font-size  : 24px;
     line-height: 40px;
-    color: #141414;
+    color      : #141414;
 }
 
 main section.option .options .d-flex p {
-    font-size: 15px;
+    font-size  : 15px;
     line-height: 20px;
-    color: #757474;
+    color      : #757474;
 }
 
 main section.option .option-img {
     position: absolute;
-    bottom: -71px;
+    bottom  : -71px;
 }
 
 main section.slider {
     background-color: #fff;
-    padding: 80px 0;
-    position: relative;
+    padding         : 80px 0;
+    position        : relative;
 }
 
 main section.slider .slider-text h3 {
-    font-size: 36px;
-    line-height: 38px;
-    color: #141414;
+    font-size    : 36px;
+    line-height  : 38px;
+    color        : #141414;
     margin-bottom: 60px;
 }
 
 section.slider .slider-carousel .carousel-inner {
-    width: 60%;
+    width : 60%;
     margin: auto;
 }
 
 section.slider .slider-carousel button.carousel-control-prev,
 section.slider .slider-carousel button.carousel-control-next {
-    color: #ef473a;
-    width: 70px;
-    height: 70px;
-    border: 1px solid #ef473a;
+    color        : #ef473a;
+    width        : 70px;
+    height       : 70px;
+    border       : 1px solid #ef473a;
     border-radius: 50%;
-    top: 50%;
-    bottom: 50%;
-    opacity: 1;
+    top          : 50%;
+    bottom       : 50%;
+    opacity      : 1;
 }
 
 section.slider .slider-carousel .carousel-indicators {
@@ -182,47 +182,47 @@ section.slider .slider-carousel .carousel-indicators button.active {
 }
 
 section.slider .slider-carousel .carousel-indicators button {
-    width: 20px;
-    height: 20px;
-    border: 1px solid #ef473a;
+    width        : 20px;
+    height       : 20px;
+    border       : 1px solid #ef473a;
     border-radius: 50%;
 }
 
 section.faq {
-    background: url(../images/bg-2.jpg);
-    background-position: center;
-    background-size: cover;
+    background           : url(../images/bg-2.jpg);
+    background-position  : center;
+    background-size      : cover;
     background-attachment: fixed;
 }
 
 section.faq .overlay {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 70px 0;
+    padding         : 70px 0;
 }
 
 section.faq .overlay .faq-title h3 {
-    font-size: 30px;
-    color: #fff;
+    font-size    : 30px;
+    color        : #fff;
     margin-bottom: 60px;
 }
 
 
 section.faq .accordion .accordion-item {
-    margin-bottom: 25px;
+    margin-bottom   : 25px;
     background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 0;
-    border: 0;
+    border-radius   : 0;
+    border          : 0;
 }
 
 section.faq .accordion .accordion-item .accordion-header button {
     background-color: rgba(255, 255, 255, 0.2);
-    font-size: 18px;
-    color: #fff;
+    font-size       : 18px;
+    color           : #fff;
 }
 
 section.faq .accordion .accordion-item .accordion-header button:focus {
     border-color: transparent;
-    box-shadow: none;
+    box-shadow  : none;
 }
 
 section.faq .accordion .accordion-item .accordion-header button::after {
@@ -238,48 +238,48 @@ section.faq .accordion .accordion-item .accordion-header button.collapsed i {
 }
 
 section.faq .accordion .accordion-item .accordion-body {
-    color: #c9c9c9;
-    font-size: 15px;
+    color      : #c9c9c9;
+    font-size  : 15px;
     line-height: 20px;
 }
 
 footer.footer {
-    padding-top: 70px;
+    padding-top     : 70px;
     background-color: #232323;
 }
 
 
 
 footer.footer .top-footer {
-    border-bottom: solid 2px #292828;
+    border-bottom : solid 2px #292828;
     padding-bottom: 90px;
 }
 
 footer.footer .top-footer .widget h4 {
-    font-size: 24px;
-    line-height: 25px;
-    word-spacing: 5px;
+    font-size     : 24px;
+    line-height   : 25px;
+    word-spacing  : 5px;
     padding-bottom: 25px;
-    color: #f4f8fb;
-    border-bottom: 2px solid #292828;
-    position: relative;
-    margin-bottom: 35px;
+    color         : #f4f8fb;
+    border-bottom : 2px solid #292828;
+    position      : relative;
+    margin-bottom : 35px;
 }
 
 footer.footer .top-footer .widget h4::after {
-    content: "";
-    width: 90px;
-    height: 2px;
+    content         : "";
+    width           : 90px;
+    height          : 2px;
     background-color: #ef473a;
-    position: absolute;
-    right: 0;
-    bottom: -1px;
+    position        : absolute;
+    right           : 0;
+    bottom          : -1px;
 }
 
 footer.footer .top-footer .widget p.aboutus-p {
-    font-size: 18px;
-    line-height: 40px;
-    color: #757474;
+    font-size    : 18px;
+    line-height  : 40px;
+    color        : #757474;
     margin-bottom: 100px;
 }
 
@@ -288,16 +288,16 @@ footer.footer .top-footer .widget ul.list-inline li.list-inline-item a {
 }
 
 footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i {
-    width: 50px;
-    height: 50px;
-    font-size: 17px;
-    line-height: 50px;
+    width           : 50px;
+    height          : 50px;
+    font-size       : 17px;
+    line-height     : 50px;
     background-color: #343637;
-    border-radius: 50%;
-    display: block;
-    text-align: center;
-    color: #fff;
-    transition: all .5s ease;
+    border-radius   : 50%;
+    display         : block;
+    text-align      : center;
+    color           : #fff;
+    transition      : all .5s ease;
 }
 
 footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i:hover {
@@ -310,20 +310,20 @@ footer.footer .top-footer .widget ul.tweets {
 
 footer.footer .top-footer .widget ul.tweets li {
     list-style-type: none;
-    padding: 0;
+    padding        : 0;
 }
 
 footer.footer .top-footer .widget ul.tweets li:not(:last-child) {
     padding-bottom: 20px;
-    margin-bottom: 20px;
-    border-bottom: 2px solid #292828;
+    margin-bottom : 20px;
+    border-bottom : 2px solid #292828;
 }
 
 footer.footer .top-footer .widget ul.tweets li p {
-    font-size: 15px;
-    color: #757474;
-    line-height: 24px;
-    display: inline;
+    font-size   : 15px;
+    color       : #757474;
+    line-height : 24px;
+    display     : inline;
     margin-right: 5px;
 }
 
@@ -332,14 +332,14 @@ footer.footer .top-footer .widget ul.tweets li i {
 }
 
 footer.footer .top-footer .widget form input[type="email"] {
-    font-size: 14px;
-    color: #c6c6c6;
-    line-height: 25px;
+    font-size       : 14px;
+    color           : #c6c6c6;
+    line-height     : 25px;
     background-color: #2c2b2b;
-    margin-bottom: 15px;
-    border: 0;
-    border-radius: 0;
-    text-align: right;
+    margin-bottom   : 15px;
+    border          : 0;
+    border-radius   : 0;
+    text-align      : right;
 }
 
 footer.footer .widget form input[type="email"]::placeholder {
@@ -347,32 +347,32 @@ footer.footer .widget form input[type="email"]::placeholder {
 }
 
 footer.footer .widget form input[type="email"]:focus {
-    border: 0;
+    border    : 0;
     box-shadow: none;
 }
 
 footer.footer .widget form button.btn {
-    font-size: 14px;
-    border: 0 !important;
-    border-radius: 0 !important;
+    font-size       : 14px;
+    border          : 0 !important;
+    border-radius   : 0 !important;
     background-color: #ef473a;
-    color: #fff;
-    line-height: 25px;
-    text-align: center;
-    padding: 10px 30px;
+    color           : #fff;
+    line-height     : 25px;
+    text-align      : center;
+    padding         : 10px 30px;
 }
 
 footer.footer .widget form .invalid-feedback {
-    margin-top: -15px;
+    margin-top   : -15px;
     margin-bottom: 20px;
 }
 
 footer.footer .copyright {
-    text-align: center;
-    font-size: 14px;
+    text-align : center;
+    font-size  : 14px;
     line-height: 40px;
-    color: #565656;
-    padding: 15px 0;
+    color      : #565656;
+    padding    : 15px 0;
 }
 
 @media (max-width:1199px) {
@@ -387,7 +387,7 @@ footer.footer .copyright {
     }
 
     main section.option .option-img {
-        top: 5px;
+        top  : 5px;
         right: -5px !important;
     }
 
@@ -401,13 +401,13 @@ footer.footer .copyright {
     }
 
     section.feature .features .d-flex p {
-        font-size: 10px;
+        font-size  : 10px;
         line-height: 15px;
     }
 
     main section.feature .col-md-4 .feature-img img {
         margin-top: 146px;
-        width: 90%;
+        width     : 90%;
     }
 
     /* footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i{
@@ -415,7 +415,7 @@ footer.footer .copyright {
         height: 40px;
         line-height: 40px;
     }       */
-    footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i{
+    footer.footer .top-footer .widget ul.list-inline li.list-inline-item a>i {
         margin-bottom: 20px;
     }
 
@@ -428,15 +428,26 @@ footer.footer .copyright {
         top: 35%;
     }
 }
-@media (max-width:768px){
+
+@media (max-width:768px) {
+    header.header .overlay {
+        padding-top   : 0;
+        padding-bottom: 900px;
+        text-align    : center;
+    }
+
+    header.header .overlay .header-img img {
+        /* right: 35%;
+        width: 25%; */
+        top  : 43%;
+        right: 30%;
+    }
+
     main section.option .option-img img{
        width: 80%;
     }
     footer.footer .top-footer .widget p.aboutus-p{
         margin-bottom: 10px;
     }
-    header.header .overlay .header-img img {
-        right: 50px;
-        width: 25%;
-    }
+
 }
