@@ -22,7 +22,18 @@ nav.navbar .navbar-nav li a.nav-link:hover ,nav.navbar .navbar-nav li a.nav-link
     color: #0575ec;
     background: #fff;
 }
+nav.navbar.noTransparent{
+    background: #fff;
+    border-bottom: 1px solid #eee;
+}
+nav.navbar.noTransparent .navbar-nav li a.nav-link{
+    color: #0575ec;
 
+}
+nav.navbar.noTransparent .navbar-nav.noTransparent li a.nav-link:hover ,nav.navbar.noTransparent .navbar-nav li a.nav-link.active{
+    background: #0575ec;
+    color: #fff;
+}
 header.header {
     background-image: url(../images/bg-1.jpg);
     background-position: center;
