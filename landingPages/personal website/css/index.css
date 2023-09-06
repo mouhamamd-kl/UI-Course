@@ -1,8 +1,29 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-header.header{
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+nav.navbar .navbar-nav li a.nav-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 60px;
+    padding-right: 24px;
+    padding-left: 24px;
+    transform: all .5s ease;
+}
+
+nav.navbar .navbar-nav li a.nav-link:hover ,nav.navbar .navbar-nav li a.nav-link.active{
+    color: #0575ec;
+    background: #fff;
+}
+
+header.header {
     background-image: url(../images/bg-1.jpg);
     background-position: center;
     background-size: cover;
