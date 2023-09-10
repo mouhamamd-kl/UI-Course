@@ -87,3 +87,44 @@ header.header .overlay a.cv{
     text-decoration: none;
     margin-bottom: 60px;
 }
+section.license{
+    padding: 200px 0px 80px;
+    background-color: #f6fbff;
+}
+section.license .license-title{
+    padding-bottom: 30px;
+    position: relative;
+}
+section.license .license-title h2{
+    font-size: 30px;
+    line-height: 50px;
+    color: #196dd1;
+}
+section.license .license-title h2::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #196dd1;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+section.license ul.timeline{
+    list-style-type: none;
+    padding-right: 0;
+    padding-top: 45px;
+    padding-bottom: 0;
+    position: relative;
+}
+section.license ul.timeline::before{
+    content: "";
+    width: 2px;
+    height: 75%;
+    background-color: #196dd1;
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
+
+}
