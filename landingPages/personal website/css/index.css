@@ -18,89 +18,108 @@ nav.navbar .navbar-nav li a.nav-link {
     transform: all .5s ease;
 }
 
-nav.navbar .navbar-nav li a.nav-link:hover ,nav.navbar .navbar-nav li a.nav-link.active{
+nav.navbar .navbar-nav li a.nav-link:hover,
+nav.navbar .navbar-nav li a.nav-link.active {
     color: #0575ec;
     background: #fff;
 }
-nav.navbar.noTransparent{
+
+nav.navbar.noTransparent {
     background: #fff;
     border-bottom: 1px solid #eee;
 }
-nav.navbar.noTransparent .navbar-nav li a.nav-link{
+
+nav.navbar.noTransparent .navbar-nav li a.nav-link {
     color: #0575ec;
 
 }
-nav.navbar.noTransparent .navbar-nav.noTransparent li a.nav-link:hover ,nav.navbar.noTransparent .navbar-nav li a.nav-link.active{
+
+nav.navbar.noTransparent .navbar-nav.noTransparent li a.nav-link:hover,
+nav.navbar.noTransparent .navbar-nav li a.nav-link.active {
     background: #0575ec;
     color: #fff;
 }
+
 header.header {
     background-image: url(../images/bg-1.jpg);
     background-position: center;
     background-size: cover;
     min-height: 500px;
 }
-header.header .overlay{
+
+header.header .overlay {
     background-color: rgba(5, 117, 230, 0.9);
     color: #fff;
     padding: 40px 60px;
     transform: translateY(20%);
 }
-header.header .personal img{
+
+header.header .personal img {
     border: 5px solid #73ade7;
     border-radius: 50%;
     margin-bottom: 20px;
 }
-header.header .overlay h1{
+
+header.header .overlay h1 {
     font-size: 36px;
     line-height: 50px;
     margin-bottom: 20px;
     color: #f9f9f9;
 }
-header.header .overlay h1 .span{
+
+header.header .overlay h1 .span {
     font-size: 24px;
 }
+
 header.header .overlay ul {
     margin-bottom: 40px;
 }
-header.header .overlay ul li a{
+
+header.header .overlay ul li a {
     font-size: 24px;
     color: #021b79;
 }
-header.header .overlay h2{
+
+header.header .overlay h2 {
     font-size: 15px;
     line-height: 30px;
     font-weight: bold;
     margin-bottom: 15px;
 
 }
-header.header .overlay p{
+
+header.header .overlay p {
     font-size: 15px;
     line-height: 30px;
     color: #89c4ff;
     margin-bottom: 40px;
 }
-header.header .overlay a.cv{
+
+header.header .overlay a.cv {
     font-size: 18px;
     line-height: 32px;
     color: #fff;
     text-decoration: none;
     margin-bottom: 60px;
 }
-section.license{
+
+section.license {
     padding: 200px 0px 80px;
     background-color: #f6fbff;
 }
-section.license .license-title{
+
+section.license .license-title {
     padding-bottom: 30px;
     position: relative;
 }
-section.license .license-title h2{
+
+section.license .license-title h2 {
     font-size: 30px;
     line-height: 50px;
     color: #196dd1;
 }
-section.license .license-title h2::after{
+
+section.license .license-title h2::after {
     content: "";
     width: 100px;
     height: 2px;
@@ -110,21 +129,96 @@ section.license .license-title h2::after{
     right: 50%;
     transform: translateX(50%);
 }
-section.license ul.timeline{
+
+section.license ul.timeline {
     list-style-type: none;
     padding-right: 0;
     padding-top: 45px;
     padding-bottom: 0;
     position: relative;
 }
-section.license ul.timeline::before{
+
+section.license ul.timeline::before {
     content: "";
     width: 2px;
-    height: 75%;
+    height: 80%;
     background-color: #196dd1;
     position: absolute;
     top: 0;
     right: 50%;
     transform: translateX(50%);
 
+}
+
+section.license ul.timeline li .timebox {
+    background-color: #fff;
+    border: 2px solid #f4f4f5;
+    padding: 20px 25px;
+    width: 48%;
+    position: relative;
+}
+
+section.license ul.timeline li .timebox h4 {
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+}
+
+section.license ul.timeline li .timebox h4 span {
+    color: #fff;
+    background-color: #0575e6;
+    padding: 0px 5px;
+    margin-left: 25px;
+}
+
+section.license ul.timeline li .timebox p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #b1b1b1;
+}
+section.license ul.timeline li{
+    position: relative;
+    margin-bottom: -50px;
+}
+section.license ul.timeline li:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #196dd1;
+    position: absolute;
+    top: 10%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+section.license ul.timeline li .timebox::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-left: 2px solid #f4f4f5;
+    border-bottom: 2px solid #f4f4f5;
+    position: absolute;
+    top: 5%;
+    left: -10px;
+    transform: rotate(45deg);
+}
+
+section.license ul.timeline li:nth-child(even) {
+    direction: ltr;
+    text-align: left;
+
+}
+section.license ul.timeline li:nth-child(even) .timebox h4 span{
+    float: left;
+    margin-left: 0;
+    margin-right: 25px;
+}
+
+section.license ul.timeline li:nth-child(even) .timebox::after {
+    border: 0;
+    left: auto;
+    right: -10px;
+    border-right: 2px solid #f4f4f5;
+    border-top: 2px solid #f4f4f5;
 }
