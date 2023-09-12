@@ -176,10 +176,12 @@ section.license ul.timeline li .timebox p {
     line-height: 22px;
     color: #b1b1b1;
 }
-section.license ul.timeline li{
+
+section.license ul.timeline li {
     position: relative;
     margin-bottom: -50px;
 }
+
 section.license ul.timeline li:before {
     content: "";
     width: 10px;
@@ -209,7 +211,8 @@ section.license ul.timeline li:nth-child(even) {
     text-align: left;
 
 }
-section.license ul.timeline li:nth-child(even) .timebox h4 span{
+
+section.license ul.timeline li:nth-child(even) .timebox h4 span {
     float: left;
     margin-left: 0;
     margin-right: 25px;
@@ -222,20 +225,44 @@ section.license ul.timeline li:nth-child(even) .timebox::after {
     border-right: 2px solid #f4f4f5;
     border-top: 2px solid #f4f4f5;
 }
-section.statistics{
+
+section.statistics {
     background-image: url(../images/bg-2.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
-section.statistics .overlay{
+
+section.statistics .overlay {
     background-color: rgba(56, 93, 165, 0.8);
     padding: 150px 0px;
 }
-section.statistics .overlay .stat p{
+
+section.statistics .overlay .stat p {
     font-size: 24px;
-    line-height: 30px;
+    line-height: 18px;
     color: #fff;
     margin-top: 30px;
     font-family: sans-serif;
+}
+
+section.statistics .overlay .stat .circle {
+    position: relative;
+}
+
+section.statistics .overlay .stat .circle span {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #0575e6;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform:translate(50%,-50%);
+}
+
+section.statistics .overlay .stat .circle canvas {
+    background-color: #eef6ff;
+    padding: 10px;
+    border-radius: 50%;
 }
