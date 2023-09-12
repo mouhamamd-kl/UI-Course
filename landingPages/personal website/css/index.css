@@ -222,3 +222,20 @@ section.license ul.timeline li:nth-child(even) .timebox::after {
     border-right: 2px solid #f4f4f5;
     border-top: 2px solid #f4f4f5;
 }
+section.statistics{
+    background-image: url(../images/bg-2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.statistics .overlay{
+    background-color: rgba(56, 93, 165, 0.8);
+    padding: 150px 0px;
+}
+section.statistics .overlay .stat p{
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
