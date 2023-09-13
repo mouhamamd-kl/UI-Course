@@ -266,3 +266,38 @@ section.statistics .overlay .stat .circle canvas {
     padding: 10px;
     border-radius: 50%;
 }
+section.gallery {
+    padding: 170px 0 90px;
+}
+section.gallery .gallery-title{
+    margin-bottom: 35px;
+}
+section.gallery .gallery-title h2{
+    font-size: 30px;
+    line-height: 50px;
+    color:#0575e6;
+}
+section.gallery .gallery-work label{
+    padding: 10px 30px;
+    color: #8f9899;
+    font-size: 18px;
+    line-height: 32px;
+    background-color: #fff;
+    border: 2px solid #edf4f4;
+    border-radius: 2px;
+    cursor: pointer;
+    margin: 7px 5px 40px 5px;
+    transition: all 0.5s;
+}
+section.gallery .gallery-work label:hover{
+color: #fff;
+background-color: #0575e6;
+border: 2px solid #0575e6;
+}
+section.gallery .gallery-work .items .item{
+    margin-bottom: 25px;
+}
+section.gallery .gallery-work input[type="radio"]:checked + label{
+    color: #fff;
+    background-color: #0575e6;
+}
