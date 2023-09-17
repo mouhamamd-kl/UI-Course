@@ -400,9 +400,11 @@ section.contacts .overlay .testimonials .slider .carousel-item .carousel-caption
 section.contacts .overlay .testimonials .slider .carousel-item .carousel-caption li a:hover {
     color: #0575e6;
 }
-section.contacts .overlay .testimonials .slider .carousel-indicators{
+
+section.contacts .overlay .testimonials .slider .carousel-indicators {
     bottom: -5px;
 }
+
 section.contacts .overlay .testimonials .slider .carousel-indicators button {
     height: 15px;
     width: 15px;
@@ -425,9 +427,108 @@ section.contacts .overlay .testimonials .slider .carousel-control-next i {
     width: 40px; */
     padding: 10px 20px;
 }
-section.contacts .overlay .testimonials .slider .carousel-control-prev i{
+
+section.contacts .overlay .testimonials .slider .carousel-control-prev i {
     transform: translateX(80%);
 }
-section.contacts .overlay .testimonials .slider .carousel-control-next i{
+
+section.contacts .overlay .testimonials .slider .carousel-control-next i {
     transform: translateX(-80%);
+}
+
+section.contacts .overlay .contact-info {
+    background-color: #fff;
+    padding: 50px;
+}
+
+section.contacts .contact-info .contact-title {
+    font-size: 30px;
+    line-height: 50px;
+    color: #196dd1;
+    margin-bottom: 35px;
+}
+
+section.contacts .contact-info .contact-form input,
+section.contacts .contact-info .contact-form textarea {
+    border: 2px solid #e5e5e5 !important;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #c2c2c3 !important;
+    line-height: 35px;
+    padding-right: 45px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+section.contacts .contact-info .contact-form .col-sm-6 {
+    position: relative;
+
+}
+
+section.contacts .contact-info .contact-form .col-sm-6::before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    top: 14px;
+    right: 30px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #0575e6;
+    font-weight: 900;
+}
+
+section.contacts .contact-info .contact-form .col-sm-6:first-child::before {
+    content: "\f007";
+}
+
+section.contacts .contact-info .contact-form .col-sm-6:nth-child(2)::before {
+    content: "\f0e0";
+}
+
+section.contacts .contact-info .contact-form button {
+    max-width: 200px;
+    border: 3px solid #0575e6;
+    border-radius: 3px;
+    background-color: #fff;
+    color: #0575e6;
+    font-size: 24px;
+    line-height: 25px;
+    padding: 15px 70px;
+    transition: all .5s ease;
+}
+
+section.contacts .contact-info .contact-form button:hover {
+    background-color: #0575e6;
+    color: #fff;
+}
+
+section.contacts .contact-info ul.contact-us li {
+    font-size: 16px;
+    line-height: 30px;
+    color: #0575e6;
+}
+section.contacts .contact-info ul.social li {
+    margin-right: 15px;
+}
+section.contacts .contact-info ul.social li a{
+
+    background-color: #9bc8f5;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    transition: all .5s ease;
+}
+section.contacts .contact-info ul.social li a:hover{
+    background-color: #0575e6;
+    color: #fff;
+}
+section.contacts .copyright p{
+    font-size: 18px;
+    line-height: 77px;
+    color: #ececec;
+    text-align: center;
+    margin: 0;
 }
