@@ -500,7 +500,10 @@ section.contacts .contact-info .contact-form button:hover {
     background-color: #0575e6;
     color: #fff;
 }
-
+section.contacts .contact-info .contact-form label.error{
+    margin-bottom: 20px;
+    color: red;
+}
 section.contacts .contact-info ul.contact-us li {
     font-size: 16px;
     line-height: 30px;

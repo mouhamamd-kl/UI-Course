@@ -16,6 +16,7 @@
       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/index.css">
+    
   </head>
 
   <body data-bs-spy="scroll" data-bs-target="#navbar">
@@ -405,18 +406,18 @@
               </div>
               <div class="row">
                 <div class="col-md-8">
-                  <form action class="contact-form row">
+                  <form action class="contact-form row" id="contactForm">
                     <div class="col-sm-6">
                       <input type="text" class="form-control"
-                        placeholder="الاسم">
+                        placeholder="الاسم" required name="name">
                     </div>
                     <div class="col-sm-6">
                       <input type="email" name id class="form-control"
-                        placeholder="البريد الالكتروني">
+                        placeholder="البريد الالكتروني" required name="email">
                     </div>
                     <div class="col-12">
                       <textarea class="form-control" rows="5"
-                        placeholder="نص الرسالة أو تفاصيل المشروع"></textarea>
+                        placeholder="نص الرسالة أو تفاصيل المشروع" required name="message"></textarea>
                       <button type="submit" class="btn">إرسال</button>
                     </div>
                   </form>
@@ -467,6 +468,8 @@
     <script
       src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./asset/jquery-circle-progress/circle-progress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js" integrity="sha512-37T7leoNS06R80c8Ulq7cdCDU5MNQBwlYoy1TX/WUsLFC2eYNqtKlV0QjH7r8JpG/S0GUMZwebnVFLPd6SU5yg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/localization/messages_ar.min.js" integrity="sha512-bGOftAqe7xfGxaWMsVQR187i+R9E0tXZIUL0idz1NKBBZIW78hoDtFY9gGLEGJFwHPjQSmPiHdm+80QParVi1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./js/index.js"></script>
   </body>
 
