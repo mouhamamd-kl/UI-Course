@@ -535,3 +535,59 @@ section.contacts .copyright p{
     text-align: center;
     margin: 0;
 }
+@media(max-width:992px){
+    section.license ul.timeline::before{
+        height: 77%;
+    }
+    section.license ul.timeline li:nth-child(odd) .timebox{
+        left: 5px;
+    }
+    section.license ul.timeline li:nth-child(even) .timebox{
+        right: 10px;
+    }
+    section.contacts .overlay .testimonials .slider{
+        width: 90%;
+    }
+    section.contacts .contact-info ul.social li a{
+        margin-top: 10px;
+    }
+}
+@media(max-width:768px){
+    section.license ul.timeline .timebox{
+        width: 90% !important;
+        margin: auto;
+    }
+    section.license ul.timeline li{
+        margin-bottom: 70px;
+    }
+    section.license ul.timeline li .timebox::after{
+        content: none;
+    }
+    section.license ul.timeline li .timebox {
+        right: 0;left: 0;
+    }
+    section.license ul.timeline::before{
+        height: 100%;
+    }
+    section.statistics .overlay .container .row .stat{
+        margin-top: 20px;
+    }
+    section.statistics .overlay .stat p{
+        margin-top: 10px;
+    }
+    section.gallery .gallery-work label{
+        margin-bottom: 5px;
+    }
+    section.gallery .gallery-work label:last-of-type{
+        margin-bottom: 20px;
+    }
+    section.contacts .overlay .testimonials .slider .carousel-item .carousel-caption{
+        padding: 56px 24px 33px;
+    }
+    section.contacts .overlay .testimonials .slider .carousel-control-prev,section.contacts .overlay .testimonials .slider .carousel-control-next{
+        display: none;
+    }
+    section.contacts .contact-info .contact-form button{
+        margin-bottom: 20px;
+    }
+}
