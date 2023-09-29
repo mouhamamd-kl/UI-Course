@@ -11,6 +11,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'dist'),
+    },
+    hot:false,
+    open:true,
+    port: 9000,
+    devMiddleware: {
+      writeToDisk: true,
+    },
+  },
   module: {
     rules: [
       {
