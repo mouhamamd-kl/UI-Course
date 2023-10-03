@@ -15,8 +15,8 @@ module.exports = {
     static: {
       directory: path.join(__dirname, 'dist'),
     },
-    hot:false,
-    open:true,
+    hot: false,
+    open: true,
     port: 9000,
     devMiddleware: {
       writeToDisk: true,
@@ -33,6 +33,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
+        exclude:/bootstrap\.min\.css$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -43,6 +44,27 @@ module.exports = {
           ,
           "css-loader",
         ],
+      },
+      {
+        test:/bootstrap\.min\.css$/i,
+        use:[
+          {
+            loader: MiniCssExtractPlugin.loader,
+            options: {
+              esModule: false,
+            },
+          },
+          'rtlcss-loader'
+        ]
+      },
+      {
+
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+
+        type: 'asset/resource',
+        generator: {
+          filename: "./images/[name][ext]"
+        }
       },
     ],
   },
