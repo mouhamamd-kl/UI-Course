@@ -1,17 +1,18 @@
 @font-face {
     font-family: "JF Flat Redular";
-    src :url(../fonts/JF-Flat-regular.eot);
-    src :url('../fonts/JF-Flat-regular.svg#JF Flat Regulat') format('svg');
-    src :url(../fonts/JF-Flat-regular.ttf) format('truetype'); 
-    src :url(../fonts/JF-Flat-regular.woff) format('woff');
+    src        : url(../fonts/JF-Flat-regular.eot);
+    src        : url('../fonts/JF-Flat-regular.svg#JF Flat Regulat') format('svg');
+    src        : url(../fonts/JF-Flat-regular.ttf) format('truetype');
+    src        : url(../fonts/JF-Flat-regular.woff) format('woff');
     font-weight: bolder;
-    font-style: normal;
+    font-style : normal;
 }
-body{
-font-family: "JF Flat Redular","Segoe UI",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-size: 14px;
-line-height: 1.5;
-color: black;
+
+body {
+    font-family: "JF Flat Redular", "Segoe UI", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size  : 14px;
+    line-height: 1.5;
+    color      : black;
 }
 
 .custom-navbar {
@@ -19,4 +20,51 @@ color: black;
     width           : 100%;
     background-color: #fff;
     padding         : 15px 0;
+}
+
+.custom-form-control,
+.custom-btn {
+    border       : 1px solid #EBEBEB;
+    box-shadow   : none;
+    border-radius: 2px;
+    color        : #868686;
+    height       : 38px;
+    padding      : 6px 16px 7px;
+    transition   : all 0.3s ease;
+}
+
+.custom-btn:hover {
+    background-color: #d4d4d4;
+    border          : 1px solid #8c8c8c;
+    color           : #ff3956;
+}
+
+.categories {
+    border-radius: 0 !important;
+    border-right : 0 !important;
+}
+
+.custom-dropdown-menu {
+    border-radius: 2px;
+    box-shadow   : 0 2px 5px 0 #EBEBEB;
+    color        : #777;
+}
+
+.search-btn {
+    background-color: #ff3956;
+    border-color    : #ff3956;
+    color           : #fff;
+    padding         : 5px 15px 7px;
+    height          : 38px;
+    width           : 65px;
+    border-radius   : 0;
+    font-weight     : 700;
+    font-size       : 14px;
+    transition: all 0.5s ease;
+}
+
+.search-btn:hover,.search-btn:active,.search-btn:focus,.search-btn:active:hover,.search-btn:active:focus {
+    background-color: #C2101E;
+    border-color    : #ff3956;
+    color           : #fff;
 }
