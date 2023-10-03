@@ -8,51 +8,53 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <nav class="navbar">
-                <div class="navbar-header">
-                    <a href="">
-                        <img src="./images/logo.png" alt="">
-                    </a>
-                </div>
-                <form action="" class="d-flex">
-                    <input type="search" class="form-control" placeholder="البحث">
-                    <div class="dropdown">
-                        <a href="#" id="navbarDropdown" role="button" class="nav-link dropdown-toggle"
-                            data-bs-toggle="dropdown" aria-expanded="false">اختر فئة</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="checkbox ms-2">
-                                    <label >
-                                        <input type="checkbox" name="search-category" value="men">
-                                        رجالي
-                                    </label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="checkbox  ms-2">
-                                    <label >
-                                        <input type="checkbox" name="search-category" value="women">
-                                        نسائي
-                                    </label>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="checkbox  ms-2">
-                                    <label >
-                                        <input type="checkbox" name="search-category" value="kids">
-                                        أطفال
-                                    </label>
-                                </div>
-                            </li>
-                        </ul>
-
+            <nav class="navbar custom-navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="">
+                            <img src="./images/logo.png" alt="">
+                        </a>
                     </div>
-                    <button type="submit" class="btn search-btn">
-                        ابحث
-                    </button>
-                </form>
+                    <form action="" class="d-flex">
+                        <input type="search" class="form-control" placeholder="البحث">
+                        <div class="dropdown">
+                            <a href="#" id="navbarDropdown" role="button" class="nav-link dropdown-toggle"
+                                data-bs-toggle="dropdown" aria-expanded="false">اختر فئة</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="checkbox ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="men">
+                                            رجالي
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox  ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="women">
+                                            نسائي
+                                        </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="checkbox  ms-2">
+                                        <label>
+                                            <input type="checkbox" name="search-category" value="kids">
+                                            أطفال
+                                        </label>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <button type="submit" class="btn search-btn">
+                            ابحث
+                        </button>
+                    </form>
+                </div>
             </nav>
         </div>
     </div>

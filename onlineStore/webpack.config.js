@@ -66,6 +66,15 @@ module.exports = {
           filename: "./images/[name][ext]"
         }
       },
+      {
+
+        test: /\.(tff|eot|svg|woff|woff2)$/i,
+
+        type: 'asset/resource',
+        generator: {
+          filename: "./fonts/[name][ext]"
+        }
+      },
     ],
   },
   plugins: [

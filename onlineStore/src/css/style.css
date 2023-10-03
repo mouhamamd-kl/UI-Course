@@ -1,3 +1,22 @@
-h1{
-    color: rgb(24, 24, 24);
+@font-face {
+    font-family: "JF Flat Redular";
+    src :url(../fonts/JF-Flat-regular.eot);
+    src :url('../fonts/JF-Flat-regular.svg#JF Flat Regulat') format('svg');
+    src :url(../fonts/JF-Flat-regular.ttf) format('truetype'); 
+    src :url(../fonts/JF-Flat-regular.woff) format('woff');
+    font-weight: bolder;
+    font-style: normal;
+}
+body{
+font-family: "JF Flat Redular","Segoe UI",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 14px;
+line-height: 1.5;
+color: black;
+}
+
+.custom-navbar {
+    border-bottom   : 3px solid #EEF0EA;
+    width           : 100%;
+    background-color: #fff;
+    padding         : 15px 0;
 }
