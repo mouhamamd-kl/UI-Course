@@ -110,3 +110,14 @@ background-color: #e7e7e7;
     color: #fff;
     background-color: #e62424;
 }
+/*
+قسم عارض الشرائح
+ */
+#carousel-featured{
+    background-color: #F7F8F3;
+    height: 400px;
+}
+.carousel .carousel-inner .carousel-item img{
+    /* width: 100%; */
+    width: 375px;
+}
