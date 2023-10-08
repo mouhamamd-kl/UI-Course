@@ -158,19 +158,43 @@ ul.custom-dropdown-menu li a.dropdown-item:hover {
     margin-top: 18px;
 }
 
- a.custom-outline-warning {
-    border-color:  #f8ad47;
+a.custom-outline-warning {
+    border-color: #f8ad47;
     color: #f8ad47;
     background-color: transparent;
 }
+
 #carousel-featured .product-details a.custom-outline-warning {
     margin-top: 15px;
 }
+
 a.custom-outline-warning:hover,
 a.custom-outline-warning:active,
 a.custom-outline-warning:focus,
-a.custom-outline-warning:active:hover
-a.custom-outline-warning:active:focus {
+a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     border: 1px solid #b86d07;
     color: #b86d07;
+}
+
+ .sale {
+    background-color: #53CCD7;
+    font-weight: bold;
+    position: absolute;
+    color: #fff;
+}
+
+.sale.large{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    left: -15px;
+    top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+    padding: 35px;
+    line-height: 90%;
+    flex-direction: column;
+    transform: rotate(-25deg);
 }
