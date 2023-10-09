@@ -198,3 +198,20 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     flex-direction: column;
     transform: rotate(-25deg);
 }
+.custom-carousel-indicators{
+    position: absolute;
+    top: 70%;
+    right:  45%;
+}
+.custom-carousel-indications-primary{
+border: 2px solid #DDDDDB !important;
+height: 70px !important;
+width: 70px !important;
+opacity: 1 !important;
+transition: all 0.5s ease !important;
+margin: 0 !important;
+margin-left: 5px !important;
+}
+.custom-carousel-indications-primary:hover,.custom-carousel-indications-primary.active{
+    border-color: #f8ad47 !important;
+}
