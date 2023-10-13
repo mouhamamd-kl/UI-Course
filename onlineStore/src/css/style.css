@@ -303,3 +303,12 @@ color: #53CCD7;
 .overlay:hover{
     opacity: 1;
 }
+.custom-thumbnail .sale{
+    padding: 5px 10px;
+    position: absolute;
+    left: 16px;
+    top: 14px;
+}
+.custom-thumbnail .sale::before{
+    content: "-";
+}
