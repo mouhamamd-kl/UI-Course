@@ -273,7 +273,7 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     font-size: 14px;
 }
 
-.custom-thumbnail .clearfix .price {
+.price {
     color: #53CCD7;
 }
 
