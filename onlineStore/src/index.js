@@ -12,3 +12,7 @@ document.querySelectorAll('.add-to-cart-btn').forEach(item=>{
         alert("أضيف المنتج إلى عربة الشراء .")
     })
 })
+var d = new Date();
+var year = d.getFullYear();
+document.getElementById("year").innerHTML = year+"&copy;";
+

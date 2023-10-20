@@ -442,3 +442,14 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     color                    : inherit;
     height                   : 38px;
 }
+#footer-copyright-social{
+    background: #141414;
+    color: #303030;
+    padding: 30px 0;
+    font-weight: 700;
+}
+#footer-copyright-social #social-icons  a{
+    color: #303030;
+    margin:0 5px;
+    font-size: 15px;
+}
