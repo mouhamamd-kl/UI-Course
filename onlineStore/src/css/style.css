@@ -540,6 +540,10 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
         font-weight: 400;
     }
 
+    #row-brands .panel .carousel-item img {
+        width: 200px !important;
+        height: auto !important;
+    }
 }
 
 
