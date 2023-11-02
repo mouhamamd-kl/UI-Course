@@ -541,6 +541,16 @@ product page
     font-size: 18px;
     padding: 5px 10px;
 }
+.heading-with-border-bottom{
+    border-bottom: 1px solid #ebebeb;
+}
+.heading-inline{
+    display: inline-block;
+    min-width: 250px; 
+}
+.more-description p,.more-description ul{
+margin-bottom: 10px;
+}
 @media (max-width: 1399.98px) {}
 
 @media (max-width: 1199.98px) {
