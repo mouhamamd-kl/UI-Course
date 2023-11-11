@@ -749,4 +749,7 @@ margin-bottom: 10px;
     #form-product-selection,.comments{
         padding-right: 15px;
     }
+    .comments .comment p{
+        font-size: 15px;
+    }
 }
