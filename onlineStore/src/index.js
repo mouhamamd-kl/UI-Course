@@ -10,15 +10,19 @@ document.querySelectorAll(".product-description").forEach((item) => {
   });
 });
 
-document.querySelectorAll('.product-option input[name="color"]').forEach((item) => {
-  item.addEventListener("change", () => {
-    document.querySelectorAll(".product-option.color-option").forEach((i) => {
-      i.classList.remove("active");
+document
+  .querySelectorAll('.product-option input[name="color"]')
+  .forEach((item) => {
+    item.addEventListener("change", () => {
+      document.querySelectorAll(".product-option.color-option").forEach((i) => {
+        i.classList.remove("active");
+      });
+      item.parentNode.parentNode.classList.add("active");
     });
-    item.parentNode.parentNode.classList.add("active");
   });
-});
-document.querySelectorAll('.product-option input[name="size"]').forEach((item) => {
+document
+  .querySelectorAll('.product-option input[name="size"]')
+  .forEach((item) => {
     item.addEventListener("change", () => {
       document.querySelectorAll(".product-option.size-option").forEach((i) => {
         i.classList.remove("active");
@@ -41,3 +45,12 @@ document.querySelectorAll(".add-to-cart-btn").forEach((item) => {
 var d = new Date();
 var year = d.getFullYear();
 document.getElementById("year").innerHTML = year + "&copy;";
+document.querySelectorAll("[data-product-quantity]").forEach(item=>{
+  item.addEventListener('change',()=>{
+    const newQuantity=item.value;
+    const parent=item.closest('[data-product-info]');
+    const pricePerUnit=parent.getAttribute('data-product-price');
+    const totalPriceForAll=pricePerUnit*newQuantity;
+    parent.querySelector('.total-price-for-product').innerHTML=totalPriceForAll+"$";
+  })
+})

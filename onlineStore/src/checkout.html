@@ -166,10 +166,10 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr data-product-info data-product-price="400">
                                     <td>
                                         <div class="custom-media d-flex">
-                                           <img src="./images/adidas_3.png" alt=""> 
+                                            <img src="./images/adidas_3.png" alt>
                                             <div>
                                                 <h4>تي شيرت رجالي من لاكوست</h4>
                                                 <div class="custom-text-muted">
@@ -178,9 +178,11 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td>400$</td>
+                                    <td class="product-price">400$</td>
                                     <td>
-                                        <select name="product1" class="custom-form-control quantity" id="">
+                                        <select name="product1"
+                                            class="custom-form-control quantity"
+                                            data-product-quantity>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3" selected>3</option>
@@ -188,15 +190,16 @@
                                     </td>
                                     <td class="total-price-for-product">1200$</td>
                                     <td>
-                                        <button class="btn custom-btn-outline-danger">
+                                        <button
+                                            class="btn custom-btn-outline-danger">
                                             حذف
                                         </button>
                                     </td>
                                 </tr>
-                                <tr>
+                                <tr data-product-info data-product-price="200">
                                     <td>
                                         <div class="custom-media d-flex">
-                                           <img src="./images/adidas_1.png" alt=""> 
+                                            <img src="./images/adidas_1.png" alt>
                                             <div>
                                                 <h4>تي شيرت رجالي من لاكوست</h4>
                                                 <div class="custom-text-muted">
@@ -205,17 +208,20 @@
                                             </div>
                                         </div>
                                     </td>
-                                    <td>200$</td>
+                                    <td class="product-price">200$</td>
                                     <td>
-                                        <select name="product1" class="custom-form-control quantity" id="">
+                                        <select name="product1"
+                                            class="custom-form-control quantity"
+                                            data-product-quantity>
                                             <option value="1">1</option>
                                             <option value="2" selected>2</option>
-                                            <option value="3" >3</option>
+                                            <option value="3">3</option>
                                         </select>
                                     </td>
                                     <td class="total-price-for-product">400$</td>
                                     <td>
-                                        <button class="btn custom-btn-outline-danger">
+                                        <button
+                                            class="btn custom-btn-outline-danger">
                                             حذف
                                         </button>
                                     </td>
@@ -223,7 +229,8 @@
                             </tbody>
                             <tfoot>
                                 <tr>
-                                    <td colspan="5" class="total-price custom-text-muted">
+                                    <td colspan="5"
+                                        class="total-price custom-text-muted">
                                         <span>السعر الإجمالي لجميع المنتجات:</span>
                                         <span id="total-price-for-all-product">1500</span>
                                         <span>دولار</span>
