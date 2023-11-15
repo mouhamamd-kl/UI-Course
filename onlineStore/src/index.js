@@ -45,12 +45,22 @@ document.querySelectorAll(".add-to-cart-btn").forEach((item) => {
 var d = new Date();
 var year = d.getFullYear();
 document.getElementById("year").innerHTML = year + "&copy;";
-document.querySelectorAll("[data-product-quantity]").forEach(item=>{
-  item.addEventListener('change',()=>{
-    const newQuantity=item.value;
-    const parent=item.closest('[data-product-info]');
-    const pricePerUnit=parent.getAttribute('data-product-price');
-    const totalPriceForAll=pricePerUnit*newQuantity;
-    parent.querySelector('.total-price-for-product').innerHTML=totalPriceForAll+"$";
-  })
-})
+var newTotalprice = 0;
+document.querySelectorAll("[data-product-quantity]").forEach((item) => {
+  item.addEventListener("change", () => {
+    const newQuantity = item.value;
+    const parent = item.closest("[data-product-info]");
+    const pricePerUnit = parent.getAttribute("data-product-price");
+    const totalPriceForAll = pricePerUnit * newQuantity;
+    parent.querySelector(".total-price-for-product").innerHTML =
+      totalPriceForAll + "$";
+    newTotalprice = 0;
+    document.querySelectorAll('[data-product-info]').forEach((product)=>{
+      const pricePerUnit=product.getAttribute("data-product-price");
+      const quantity=product.querySelector("[data-product-quantity]").value;
+      newTotalprice+=pricePerUnit*quantity;
+      console.log(newTotalprice);
+      const totalPriceForAllProducts=document.getElementById('total-price-for-all-product').innerHTML=newTotalprice;
+    })
+  });
+});
