@@ -29,6 +29,8 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.2.0",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "jquery": "^3.7.1",
+    "jsdom": "^22.1.0",
     "webpack-dev-server": "^4.11.1"
   }
 }
