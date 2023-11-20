@@ -608,7 +608,7 @@ margin-bottom: 25px;
 
 .custom-table h4 {
     font-size: 18px;
-    margin-top: 12px 0;
+    margin: 12px 0;
 }
 
 .custom-table th {
@@ -660,13 +660,16 @@ margin-bottom: 25px;
 }
 
 @media (max-width: 767.98px) and (max-width: 991.98px) {
+
     .custom-thumbnail img {
         height: 200px;
     }
 }
 
 @media (max-width: 991.98px) {
-
+    .custom-btn-with-icon{
+        width: 50% !important;
+    }
     .custom-navbar {
         padding: 15px 20px 30px;
     }
@@ -813,6 +816,9 @@ margin-bottom: 25px;
     #carousel-product-images .custom-carousel-indicators {
         top: 92%;
         left: 5%;
+    }
+    .hide-on-small{
+        display: none;
     }
 }
 

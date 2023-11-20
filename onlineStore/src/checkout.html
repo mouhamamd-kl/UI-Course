@@ -164,7 +164,7 @@
                                         <th>المنتج</th>
                                         <th>السعر</th>
                                         <th>العدد المطلوب</th>
-                                        <th>السعر الإجمالي</th>
+                                        <th class="hide-on-small">السعر الإجمالي</th>
                                         <th></th>
                                     </tr>
                                 </thead>
@@ -172,7 +172,7 @@
                                     <tr data-product-info data-product-price="400">
                                         <td>
                                             <div class="custom-media d-flex">
-                                                <img src="./images/adidas_3.png" alt>
+                                                <img src="./images/adidas_3.png" alt class="d-none d-md-block">
                                                 <div>
                                                     <h4>تي شيرت رجالي من لاكوست</h4>
                                                     <div class="custom-text-muted">
@@ -191,18 +191,19 @@
                                                 <option value="3" selected>3</option>
                                             </select>
                                         </td>
-                                        <td class="total-price-for-product">1200$</td>
+                                        <td class="total-price-for-product hide-on-small">1200$</td>
                                         <td>
                                             <button type="button" data-delete
                                                 class="btn custom-btn-outline-danger">
-                                                حذف
+                                                <span class="d-none d-md-block">حذف</span>
+                                                <i class="fa fa-trash d-md-none d-block"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr data-product-info data-product-price="200">
                                         <td>
                                             <div class="custom-media d-flex">
-                                                <img src="./images/adidas_1.png" alt>
+                                                <img src="./images/adidas_1.png" alt class="d-none d-md-block">
                                                 <div>
                                                     <h4>تي شيرت رجالي من لاكوست</h4>
                                                     <div class="custom-text-muted">
@@ -221,11 +222,12 @@
                                                 <option value="3">3</option>
                                             </select>
                                         </td>
-                                        <td class="total-price-for-product">400$</td>
+                                        <td class="total-price-for-product hide-on-small">400$</td>
                                         <td>
                                             <button type="button" data-delete
                                                 class="btn custom-btn-outline-danger">
-                                                حذف
+                                                <span class="d-none d-md-block">حذف</span>
+                                                <i class="fa fa-trash d-md-none d-block"></i>
                                             </button>
                                         </td>
                                     </tr>
@@ -233,7 +235,7 @@
                                 <tfoot>
                                     <tr>
                                         <td colspan="5"
-                                            class="total-price custom-text-muted">
+                                            class="total-price custom-text-muted ">
                                             <span>السعر الإجمالي لجميع المنتجات:</span>
                                             <span id="total-price-for-all-product">1500</span>
                                             <span>دولار</span>
