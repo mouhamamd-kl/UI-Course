@@ -254,7 +254,7 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
 }
 
 .custom-thumbnail img {
-    height: 250px;
+    max-height: 250px;
     width: 100%;
     max-width: 250px;
 }
@@ -863,6 +863,11 @@ form#form-advanced-search .card.panel .custom-text-muted {
         margin: 10px;
     }
 
+    .search-pagination {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
 }
 
 @media (max-width: 767.98px) {
