@@ -722,6 +722,43 @@ form#form-advanced-search .card.panel .custom-text-muted {
 
 }
 
+
+
+/* contact.html */
+.comp-map {
+    height: 250px !important;
+}
+
+.contact-heading {
+    font-size: 20px;
+}
+
+.contact-info .d-flex i.fa {
+    color: #53CCD7 !important;
+}
+
+.email-input {
+    border-left: none !important;
+    border-left-style: none !important;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.email-button {
+    border-right-color: #f8ad47;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+form.message-form input{
+   width: 35%;
+
+}
+form.message-form textarea{
+    height: 45%;
+}
+
+
 @media (max-width: 1399.98px) {}
 
 @media (max-width: 1199.98px) {
