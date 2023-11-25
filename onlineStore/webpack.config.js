@@ -24,6 +24,7 @@ module.exports = {
   },
   module: {
     rules: [
+      
       {
         test: /\.html$/i,
         loader: "html-loader",
@@ -32,7 +33,7 @@ module.exports = {
         },
       },
       {
-        test: /\.css$/i,
+        test: /\.(sa|sc|c)ss$/,
         exclude:/bootstrap\.min\.css$/i,
         use: [
           {
@@ -43,6 +44,7 @@ module.exports = {
           },
           ,
           "css-loader",
+          "sass-loader"
         ],
       },
       {
@@ -97,6 +99,6 @@ module.exports = {
       template: "./src/contact.html",
     }),
     new MiniCssExtractPlugin({ filename: "css/style.css" }),
-    new CssMinimizerPlugin(),
+        new CssMinimizerPlugin(),
   ],
 };

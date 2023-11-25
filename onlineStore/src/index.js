@@ -2,6 +2,7 @@ import "@fortawesome/fontawesome-free/js/all.min.js";
 // import 'bootstrap/dist/js/bootstrap.min.js'
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./css/style.css";
+import './sass/custom.scss';
 import $ from "jquery/dist/jquery";
 window.$ = window.jQuery = $;
 window.bootstrap = require("bootstrap/dist/js/bootstrap.bundle.js");
