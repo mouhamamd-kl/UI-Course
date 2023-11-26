@@ -22,32 +22,7 @@ body {
     padding: 15px 0;
 }
 
-.custom-form-control,
-.dropdown a.custom-btn {
-    border: 1px solid #EBEBEB !important;
-    box-shadow: none !important;
-    border-radius: 2px !important;
-    color: #868686 !important;
-    height: 38px !important;
-    padding: 6px 16px 7px !important;
-    transition: all 0.3s ease !important;
-}
 
-.custom-form-control:focus {
-    box-shadow: 0 0 2px 0 #C2101E !important;
-    border-color: #C2101E !important;
-}
-
-.dropdown a.custom-btn:hover {
-    background-color: #d4d4d4 !important;
-    border: 1px solid #8c8c8c !important;
-    color: #ff3956 !important;
-}
-
-.dropdown a.custom-btn:focus {
-    color: #ff3956 !important;
-
-}
 
 .dropdown a.categories {
     border-radius: 0 !important;
@@ -158,23 +133,13 @@ ul.custom-dropdown-menu li a.dropdown-item:hover {
     margin-top: 18px;
 }
 
-a.custom-outline-warning {
-    border-color: #f8ad47;
-    color: #f8ad47;
-    background-color: transparent;
-}
+
 
 #carousel-featured .product-details a.custom-outline-warning {
     margin-top: 15px;
 }
 
-a.custom-outline-warning:hover,
-a.custom-outline-warning:active,
-a.custom-outline-warning:focus,
-a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
-    border: 1px solid #b86d07;
-    color: #b86d07;
-}
+
 
 .sale {
     background-color: #53CCD7;
@@ -299,10 +264,7 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     transition: all 0.5s ease;
 }
 
-.overlay .add-to-cart-btn {
-    background-color: #fff;
-    color: #53CCD7;
-}
+
 
 .overlay:hover {
     opacity: 1;
@@ -419,19 +381,6 @@ a.custom-outline-warning:active:hover a.custom-outline-warning:active:focus {
     height: 38px;
 }
 
-.custom-btn-warning {
-    color: #000;
-    background-color: #f8ad47;
-    border-color: #f8ad47;
-}
-
-.custom-outline-warning:hover,
-.custom-outline-warning:active,
-.custom-outline-warning:focus,
-.custom-outline-warning:active:hover .custom-outline-warning:active:focus {
-    background: #d86d07;
-    border-color: #d86d07;
-}
 
 .newsletter form button {
     border-radius: 0;
@@ -638,18 +587,7 @@ h1.custom-heading {
     color: #000;
 }
 
-.custom-btn-outline-danger {
-    background-color: transparent;
-    border-color: #C2101E;
-    color: #C2101E;
-    transition: 0.5s all ease;
-}
 
-.custom-btn-outline-danger:hover {
-    border-color: #b9001b;
-    background-color: #b9001b;
-    color: white;
-}
 
 .custom-table tbody tr.delete {
     opacity: 0;
