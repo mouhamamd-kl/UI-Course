@@ -1,6 +1,7 @@
 import "@fortawesome/fontawesome-free/js/all.min.js";
 // import 'bootstrap/dist/js/bootstrap.min.js'
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/scss/bootstrap.scss";
 import "./css/style.css";
 import './sass/style.scss';
 import $ from "jquery/dist/jquery";
