@@ -24,7 +24,7 @@ module.exports = {
   },
   module: {
     rules: [
-      
+
       {
         test: /\.html$/i,
         loader: "html-loader",
@@ -34,7 +34,7 @@ module.exports = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        exclude:/bootstrap\.min\.scss$/i,
+        exclude: /custom\.scss$/i,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
@@ -48,8 +48,8 @@ module.exports = {
         ],
       },
       {
-        test:/bootstrap\.min\.scss$/i,
-        use:[
+        test: /custom\.scss$/i,
+        use: [
           {
             loader: MiniCssExtractPlugin.loader,
             options: {
@@ -57,7 +57,7 @@ module.exports = {
             },
           },
           'rtlcss-loader',
-          "sass-loader"
+          "sass-loader",
         ]
       },
       {
@@ -100,6 +100,6 @@ module.exports = {
       template: "./src/contact.html",
     }),
     new MiniCssExtractPlugin({ filename: "css/style.css" }),
-        new CssMinimizerPlugin(),
+    new CssMinimizerPlugin(),
   ],
 };
